@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark Pettyjohn</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main role="main" class="mx-auto text-center">
+
+        <h3 class="gradient-text inline-block">
+            Mark Pettyjohn
+        </h3>
+                
+        <img src="mp.jpg" alt="Picture of Mark on a park bench" class="mx-auto block my-8 responsive-image">
+
+        <nav>
+            <ul class="nav-list">
+                <li><a href="blog.html" class="nav-button">Weblog</a></li>
+                <li><a href="https://mkdirmpj.com" class="nav-button">About</a></li>
+                <li><a href="https://mkdirmpj.com/coffee.html" class="nav-button">Coffee</a></li>
+            </ul>
+        </nav>
+
+    </main>
+
+    <div id="footer">Loading footer...</div>
+
+    <script>
+      // Function to load content (as provided previously)
+      function loadContent(url, elementId) {
+          fetch(url)
+            .then(response => {
+              if (!response.ok) {
+                throw new Error(`Network response was not ok: ${response.status}`);
+              }
+              return response.text();
+            })
+            .then(data => {
+              document.getElementById(elementId).innerHTML = data;
+            })
+            .catch(error => {
+              console.error('Error loading content:', error);
+              document.getElementById(elementId).innerHTML = `<p>Error loading ${elementId}.</p>`;
+            });
+        }
+
+        loadContent('footer.html', 'footer');
+    </script>
+</body>
+</html>
