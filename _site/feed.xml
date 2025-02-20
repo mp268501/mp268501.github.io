@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-02-20T16:13:59-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Mark Pettyjohn</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">AI Benchmarks</title><link href="http://localhost:4000/blog/post/2025/02/20/benchmarks-evals-ai-education.html" rel="alternate" type="text/html" title="AI Benchmarks" /><published>2025-02-20T11:55:42-05:00</published><updated>2025-02-20T11:55:42-05:00</updated><id>http://localhost:4000/blog/post/2025/02/20/benchmarks-evals-ai-education</id><content type="html" xml:base="http://localhost:4000/blog/post/2025/02/20/benchmarks-evals-ai-education.html"><![CDATA[<p>AI: Benchmarks</p>
+
+<p><img src="/_site/assets/benchmarks.png" alt="We just need a better benchmark" /></p>
+
+<p>“We need better benchmarks!”</p>
+
+<p>Do we?</p>
+
+<p>I’m not an ML engineer, but I feel like I’ve seen this movie before.</p>
+
+<p>The scene wasn’t tech though. It was K-12 education in America and standardized tests.</p>
+
+<p>Back under George W. Bush, No Child Left Behind turned an already established testing industry into a testing industrial complex. The dollar cost of testing is relatively low compared to the total national spend on education, but they had and still have a pernicious effect. And they are entrenched. Bill Gates thought “teacher quality” was the key to gains. Well, you have to measure teacher quality. The testing complex becomes more entwined. The results? <a href="https://www.rand.org/pubs/research_reports/RR2242.html">Massive failure</a>. Will testing go away? Unlikely. Vivek’s out there ignorantly calling for more of what Gates’ initiative proved didn’t help after. It only took spending $575 million to figure it out. That’s okay though. Schools are doing just fine under Ohio’s newest budget.</p>
+
+<p>The unintended consequences and perverse incentives standardized tests create haven’t changed since <a href="https://www.youtube.com/watch?v=_ogxZxu6cjM">this scene in The Wire</a> aired 18 years ago.</p>
+
+<p>What improvements have standardized tests resulted in?</p>
+
+<p>None.</p>
+
+<p>In what I call the modern era of education reform (Sputnik launch in 1957 - Present), the United States has undergone omnipresent reform. We have made zero meaningful progress on the things these standardized tests measure: literacy and math. If you’d like to argue about the data, I encourage you to take a look around and see if reality disputes them.</p>
+
+<p>An education scenario:</p>
+
+<p>A district’s test scores are bad. The state threatens takeover in 3 years if scores don’t improve. Social studies and science teaching are sidelined. Teaching to the test ramps up. Short-cycle assessments (SCAs) that mimic the standardized test are created and used quarterly leading up the spring standardized testing. Teachers are evaluated based on SCA scores. Teaching to the SCAs ramps up.</p>
+
+<p>That’s standard practice and it’s miserable–for students and teachers.</p>
+
+<p>There’s also decades of evidence now of the <a href="https://www.google.com/search?client=firefox-b-1-d&amp;q=k-12+standardized+test+cheating">widespread cheating</a> this causes.</p>
+
+<p>The real bitch of it all, is that standardized tests aren’t useful. Doing some annual data analysis after the scores come out in the summer is worthless when it comes to effective teaching.</p>
+
+<p>I can make math people. Not from a select group of students and not just a few. Anyone. Give me a group of students that match the composition of their local population and I can create a system that can make “math people” out of all of them. They would have no problem showing proficiency on a standardized test, but the test itself would have no influence on the system I would create to make them math people.</p>
+
+<p>What is valuable, and what is critical to helping me make math people is formative assessment. In elementary school teaching, having a mental model of the arithmetic to algebra pipeline (number sense &gt; additive reasoning &gt; multiplicative reasoning &gt; properties of operations &gt; fractional reasoning &gt; ratios/proportions &gt; algebraic reasoning) as I elicit student thinking is critical to helping me make individual corrections and in the moment corrections to my instruction.</p>
+
+<p>Back in the AI world, I see benchmarks released, “New SOTA model is top of the coding leaderboard!” and yet as I use it I still have to employ “git reset” back to a working commit because the new SOTA model that tops the leaderboard can’t make a change to a codebase without breaking things.</p>
+
+<p>Benchmarks show me if a model has made the leap from one of the step function changes we’ve seen in generative AI (o.g. GPT &gt; GPT-4 &gt; reasoning models) but not much else.</p>
+
+<p>In education, a student can appear proficient based on a standardized test score, but if you sit down with them you’ll realize they haven’t really learned. Reality doesn’t match the benchmark. AI seems the same.</p>
+
+<p>Benchmarks, like standardized tests, aren’t easy to ignore. They suck up a lot of oxygen. New benchmark creators get a lot of play. People from well-funded startups that may no longer have a business model in a world where synthetic data works are creating benchmarks to try to look like thought leaders while they make last ditch efforts to save their business by intertwining themselves with national defense.</p>
+
+<p>In short, benchmarks seem not very helpful.</p>
+
+<p>Evals though on the other hand, I owe an apology. I had bunched them in with benchmarks, not really knowing what they were. My ears started burning recently when listening to a podcast with someone from OpenAI about using RL. I realized that evals were not benchmarks. In fact, evals sounded really important and similar to formative assessments that drive great teaching.</p>
+
+<p>My current mental model: evals and formative assessment rule, benchmarks and standardized tests drool.</p>]]></content><author><name></name></author><category term="blog" /><category term="post" /><summary type="html"><![CDATA[AI: Benchmarks]]></summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2025/02/19/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2025-02-19T11:55:42-05:00</published><updated>2025-02-19T11:55:42-05:00</updated><id>http://localhost:4000/jekyll/update/2025/02/19/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2025/02/19/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+<p>Jekyll requires blog post files to be named according to the following format:</p>
+
+<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
+
+<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+
+<p>Jekyll also offers powerful support for code snippets:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry></feed>
