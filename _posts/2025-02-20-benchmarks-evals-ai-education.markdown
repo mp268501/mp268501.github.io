@@ -6,7 +6,7 @@ categories: blog post
 ---
 AI: Benchmarks
 
-![We just need a better benchmark](/_site/assets/benchmarks.png)
+![We just need a better benchmark](../assets/benchmarks.png)
 
 “We need better benchmarks!”
 
