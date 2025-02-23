@@ -6,9 +6,7 @@ categories: blog post
 ---
 AI: Benchmarks
 
-![We just need a better benchmark](../assets/benchmarks.png)
-
-“We need better benchmarks!”
+!["We just need a better benchmark!"](/assets/benchmarks.png)
 
 Do we?
 
