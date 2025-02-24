@@ -4,15 +4,37 @@ title:  "AI Benchmarks"
 date:   2025-02-20 11:55:42 -0500
 categories: blog post
 ---
-AI: Benchmarks
 
 !["We just need a better benchmark!"](/assets/benchmarks.png)
 
-Do we?
+I’m not an ML engineer, but I feel like I’ve seen this movie before in K-12 education in America.
 
-I’m not an ML engineer, but I feel like I’ve seen this movie before.
+Benchmarks in generative AI look a lot like standardized tests in K-12 education.
 
-The scene wasn’t tech though. It was K-12 education in America and standardized tests.
+They sound good, reasonable, and necessary. In reality, they don't measure what you're actually interested in, tell you very little, leave lots of room for false positives, and suck up a lot of oxygen.
+
+School has many masters. One is, ostensibly, learning. What's the ultimate measure of learning? The ability to transfer knowledge. What does a standardize test tell us about that ability? Fuck all.
+
+CHECKMARKS
+Granular rankings tell you nothing about real world ability?
+
+
+HIGHER ORDER EFFECTS OF STANDARDIZED TESTING
+
+NO PROGRESS
+
+VIVEK / BILL GATES "Every student in America deserves an effective teacher so we are going to focus on teacher quality." I mean, Vivek is a grifter so just look for the alterior motive with people like him. Gates though, seemed genuine. Stupid, considering he was effectivelly introducing stack ranking to education right on the heels of Eichenwald publishing "Microsoft's Lost Decade", which was lost in large part due to the perverse incentives and negative effects created by stack ranking. But the man's worth $100 b so he gets to do what he wants.
+
+Gates' stuff though came a decade or so after George W. Bush's No Child Left Behind legislation enshrined standardized tests as the education benchmarks in America. It turned an established testing industry into a veritable testing industrial complex. Critics of that framing will say the one billion or so America spends on standardized testing is just a drop in the bucket of overall education spend, and they are correct. But that doesn't mean the company's who were built on the back of testing want to give up that revenue regardless of the pernicious impact of the tests.
+
+
+
+
+George W. Bush > No Child Left Behind > Bill Gates & "teacher effectiveness" > 
+
+This is a 20 year segment of what I call the modern era of education reform (Sputnik launch in 1957 to Present). 
+
+George W. Bush wanted to leave no child behind and to measure it he ushered in the testing industrial complex era. It costs the U.S. about $1 b a year, which isn't much compared to overall education spend. But that's the wrong measure to look at. 
 
 Back under George W. Bush, No Child Left Behind turned an already established testing industry into a testing industrial complex. The dollar cost of testing is relatively low compared to the total national spend on education, but they had and still have a pernicious effect. And they are entrenched. Bill Gates thought “teacher quality” was the key to gains. Well, you have to measure teacher quality. The testing complex becomes more entwined. The results? [Massive failure][gates-rand]. Will testing go away? Unlikely. Vivek’s out there ignorantly calling for more of what Gates’ initiative proved didn’t help after. It only took spending $575 million to figure it out. That's okay though. Schools are doing just fine under Ohio's newest budget.
 
