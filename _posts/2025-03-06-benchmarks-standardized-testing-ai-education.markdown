@@ -8,9 +8,9 @@ categories: jekyll update
 ![Tweet and XKCD reply about needing more benchmarks](/assets/benchmarks.png)
 
 
-The contrast of my experience with generative AI models and headlines like "New SOTA Model Crushes SWE-bench!" feel familiar. Too familiar. It reminded me standardized testing in schools, and that's not a good thing.
+The contrast of my experience with generative AI models and headlines like "New SOTA Model Crushes SWE-bench!" feel familiar. Too familiar. It reminded me of standardized testing in schools, and that's not a good thing.
 
-Education is in my bag. I'm not technical but I've been in tech for a long time (two acquisitions, 90's era AOL/ICQ script kiddie). Today I'm your average generative AI user (ChatGPT, Claude, AIStudio, Deepseek, Grok). Aside from quickly discerning if a model is at least GPT-4 class, benchmarks don’t tell me anything about how useful a model will be. 
+Education is in my bag. I'm not technical but I've been in tech for a long time (two acquisitions, 90's era AOL/ICQ script kiddie). Today I'm your average generative AI user. Aside from quickly discerning if a model is at least GPT-4 class, benchmarks don’t tell me anything about how useful a model will be. 
 
 Oneshotting a prompt is cool, but can Claude 3.7 or 03-mini troubleshoot my code without further making a mess of things? 
 
@@ -24,21 +24,23 @@ When I was a classroom teacher, I saw something similar. Annual standardized tes
 
 ### The Allure (and Illusion) of Measurement
 
-The core idea behind both AI benchmarks and standardized tests is understandable. We want to know if AI models are getting "smarter," just like we want to know if our students are learning. On its face, this sounds reasonable, but in education in America 8th grade math and literacy scores haven’t improved in a meaningful manner in 60 years. Yes, read that again. When the annual "test scores are down" articles come out, look at two things: 1. the trend line dating back as far as you can see (for NAEP that's 1973) and 2. where do the averages fall and what does that mean? When you look at both you see next to no progress, and an average that means the majority of students are going to fail out of or just scrape by the high school math curriculum.
+The core idea behind both AI benchmarks and standardized tests is understandable. We want to know if AI models are getting "smarter," just like we want to know if our students are learning. On its face, this sounds reasonable, but in education in America 8th grade math and literacy scores haven’t improved in a meaningful manner in 60 years. Yes, read that again. When the articles come out every year about "test scores are down", look at two things: 
+1. the trend line dating back as far as you can see (for NAEP that's 1973) and 
+2. where do the averages fall and what does that mean? When you look at both you see next to no progress, and an average that means the majority of students are going to fail out of or just scrape by the high school math curriculum.
 
-Yet we continue to test the ever loving shit out of students at all levels. I remember kindergarten kids crying at the pre-test they had to take the first week of school as a part of the broader testing complex that now exists. Traumatizing five year olds, not exactly the best practice for creating a learning environment. 
+It doesn't have to be this way. Yet we continue to test the ever loving shit out of students at all levels. I remember kindergarten kids crying at the pre-test they had to take the first week of school as a part of the broader testing complex that now exists. Traumatizing five year olds, not exactly the best practice for creating a learning environment. 
 
-So we have managed to make no real gains, and create a testing-industrial complex that has real, unintended, negative consequences. 
+So over multiple generations we have managed to make no real gains, and create a testing-industrial complex that does have real, unintended yet negative consequences. 
 
 Standardized tests aren't just used to measure student learning. By extension, they're used to measure teacher effectiveness. Phrases like "quality teachers make the difference" and “every student deserves a quality teacher” are hard to dispute. They are good sound bites! Grifters like Vivek are still out there using them today. Give me a few paragraphs and you'll see why this is pretty stupid.
 
-This hasn't led to quality teachers for every student. What it has led to is a very American thing. Entrench an ineffective system in the name of quality and accountability. Unlike say, the Japanese, who focus on building a better system. It all feels very 1970s/1980s U.S. auto manufacturing compared to Japanese quality.
+This hasn't led to quality teachers for every student. What it has led to is a very American thing. Entrench an ineffective system in the name of quality and accountability. Unlike say, the Japanese, who focus on building a better system to achieve quality. It all feels very 1970s/1980s U.S. auto manufacturing.
 
-Bill Gates, a man whose wealth and work need no introduction, bought into this American idea of teacher quality. The genesis I can't say, but he published an article on it in 2010 that kicked all of this off. We can fast forward to 2016 and read the RAND report on the $575 million initiative the Gates Foundation launched based on this premise. The result? A resounding, [expensive failure][rand-gates]. Not only did it not improve student outcomes, in many cases, it actively harmed them. 
+Bill Gates, a man whose wealth and work need no introduction, bought into this American idea of teacher quality. The genesis I can't say, but he published an article in 2010 that kicked all of this off. We can fast forward to 2016 and read the RAND report on the $575 million initiative the Gates Foundation launched based on this premise. The result? A resounding, [expensive failure][rand-gates]. Not only did it not improve student outcomes, in many cases, it actively harmed them. 
 
 ![4 Panel Padme Anakin Star Wars meme about Anakin doing something bad](/assets/prequel.jpg)
 
-The push for 'teacher quality' was too strong of a siren song so it spread across the country well before the 2016 RAND report dropped. I was in the classroom during this time. It was something I bet anyone who has worked in an organization of size can relate to. Some top-down fuckery that sucks all of the oxygen out of the room, takes a ton of time, doesn't overlap much if at all with the real work or improvement you need to do for your job, and most people end up paying lip service to.
+The push for 'teacher quality' was too strong of a siren song so it spread across the country well before the 2016 RAND report dropped. I was in the classroom during this time. It was something I bet anyone who has worked in an organization of size can relate to. Some top-down fuckery that sucks all of the oxygen out of the room, takes a ton of time, and doesn't overlap much if at all with the real work or improvement you need to do for your job.
 
 The real bitch of all of this is that a person with an iota of experience in other industries or perhaps even someone who has picked up a book and read some history could easily see parallels that showed how bad of an idea this was before it even began. In 2015 I remember nodding along as I read the  [HBR article about performance management at Deloitte][hbr-deloitte]. They put some hard numbers to something that everyone knows, performance management is a major time suck and divorced from actual performance or employee improvement. Education was doubling down on a heavyweight performance management system at this exact time thanks to Gates and the push for 'teacher quality.'
 
@@ -54,15 +56,13 @@ The system that turned Gates’ company into an incapable sloth is what he propo
 I knew enough about history, human nature, and systems to know this was a bad idea. It pissed me off.
 To have gone down this path, at this time, Bill Gates must know something I don’t. What that is though, I cannot fathom.
 
-The parallels to the AI world are striking. I see headlines like, "New SOTA model is top of the coding leaderboard!" But then, when I actually use the model, I find myself, resorting to `git reset` because it breaks my codebase. The benchmark says one thing, reality says another.
-
 ### Goodhart's Law: When the Measure Becomes the Target
 
 This brings us to a crucial concept: Goodhart's Law. It essentially states that when a measure becomes a target, it ceases to be a good measure. 
 
 An example: if you tell a factory manager her variable compensation is tied to a reduction in scrap, then she will encourage her shift managers to push every piece produced out the door, quality be damned. Rejected pieces returned by customers will languish in the warehouse because processing them would hit her scrap numbers. The system gets gamed, the company loses goodwill with customers, problems are pushed down the road, but the manager earns her variable comp.
 
-In education, this plays out tragically. Picture this scenario (which is, sadly, standard practice in many districts):
+In education, this plays out tragically. Picture this scenario (which, sadly, happens to often in schools):
 
 1. **Low Test Scores:** A school district's standardized test scores are below par.
 2. **State Threatens Takeover:** The state warns of intervention if scores don't improve within a set timeframe.
@@ -90,7 +90,7 @@ Here's where we get to a critical distinction: formative vs. summative assessmen
 
 As a teacher, formative assessment is my bread and butter. It’s about having a mental model of how students progress in a subject. I concern myself with elementary students building a solid foundation in arithmetic that they can transfer to algebra and higher level mathematics. Number sense to additive reasoning. Making the big conceptual leap to multiplicative reasoning. Building an understanding of properties of operations. Using multiplicative reasoning to do fractional reasoning, which paves the way to ratios/proportions, and then algebraic reasoning. 
 
-With this in framework in mind, I’m continuously looking for and eliciting student thinking while teaching. When a student struggles, I have a good idea how to help because I understand this framework and where the student's reasoning is within it, then what to do about it. With formative assessments I can see, understand, and give students timely, specific feedback.
+With this framework in mind, I’m continuously looking for and eliciting student thinking while teaching. When a student struggles, I have a good idea how to help because I understand this framework and where the student's reasoning is within it, then what to do about it. With formative assessments I can see, understand, and give students timely, specific feedback.
 
 For example, I have seen 4th grade students solve a four-digit subtraction problem like 4,324 - 749. They use the standard subtraction algorithm and have the correct answer on their paper. However, by observing their work and asking them to explain their process I've found that they understand place value up to the tens place, but struggle beyond that. A simple "right" or "wrong" answer on a standardized test would miss this crucial nuance. Teaching without this kind of formative assessment is why too many students end up building a mathematical House of Cards that is bound to fall down.
 
@@ -102,11 +102,11 @@ Until recently, I had mentally bucketed benchmarks and evals together. I had an 
 
 ### The "Vibe" Check: When Intuition Matters
 
-François Chollet, a prominent AI researcher, put it perfectly: "When a human-facing system becomes sufficiently complex, 'vibes' become a perfectly valid evaluation methodology."
+François Chollet, put it perfectly: "When a human-facing system becomes sufficiently complex, 'vibes' become a perfectly valid evaluation methodology."
 
 This might sound unscientific, but it resonates deeply with my experience as a teacher. I can often get a good sense of a student's understanding simply by talking to them and listening to their explanations–even if they don't get the "right" answer on a formal assessment. A student with a wrong answer may be closer to building a solid conceptual understanding than one who gets the right answer but merely has a procedure memorized.
 
-The same applies to AI. I've spent good chunks of time wrestling with a coding problem, getting nowhere with even the latest SOTA models, and realize that, despite the impressive benchmark scores, the "vibes" are off. It just doesn't work in a practical, real-world setting.
+The same applies to AI. I've spent good chunks of time wrestling with a coding problem, getting nowhere with even the latest SOTA models, and realize that, despite the impressive benchmark scores, the "vibes" are off. It just doesn't work for me in a practical, real-world setting.
 
 ### The Problem with Proxies
 
@@ -125,7 +125,7 @@ Both are:
 When generative AI (or whatever comes next) truly reaches a level of general intelligence, we won't need benchmarks to tell us. We'll know.
 
 If model providers get sidetracked by teaching to the test and optimizing for benchmarks that would make me bearish for two reasons. 
-1. They can’t run a tight ship. I’ve never seen a great founder, manager, or teacher focus on teaching to the test (optimizing for the short-term at the expense of the long-term). The model providers who don't have existing businesses, so the Anthropic's, OpenAI's are trying to do something that I can't find an historical precedent for. With the goal of AGI/ASI, these companies have to productize the present, while researching and developing the future. That will pull these companies in many directions, which is difficult for even the best run orgs to manage. If one of those directions ends up being benchmark optimization, that would be a waste.
+1. They can’t run a tight ship. I’ve never seen a great founder, manager, or teacher focus on teaching to the test (optimizing for the short-term at the expense of the long-term). The model providers who don't have existing businesses, so the Anthropic's and OpenAI's are trying to do something that I can't find an historical precedent for. With the goal of AGI/ASI, these companies have to productize the present, while researching and developing the future. That will pull these companies in many directions, which is difficult for even the best run orgs to manage. If one of those directions ends up being benchmark optimization, that would be a waste.
 
 2. If the goal is AGI/ASI, and you’re optimizing for short-term benchmarks, that’s telling me you don’t think you can actually get to the goal.
 
