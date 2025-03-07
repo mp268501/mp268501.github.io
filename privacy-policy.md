@@ -8,7 +8,9 @@ permalink: /privacy-policy/
 
 Last updated: March 6, 2025
 
-This Privacy Policy describes My policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.
+I added Google Analytics to the blog. This is some boilerplate. All I'm doing is seeing if anyone shows up. I'm not using data for any other purposes. I
+
+This Privacy Policy describes my policies and procedures on the collection, use and disclosure of your information when you use the service and tells You about Your privacy rights and how the law protects You.
 
 I use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy.
 
