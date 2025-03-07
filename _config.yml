@@ -30,6 +30,11 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 theme: minima
+
+minima:
+  google_analytics: G-Y0Q6E6Q62N
+
+
 plugins:
   - jekyll-feed
 
