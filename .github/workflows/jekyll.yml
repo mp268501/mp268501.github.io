@@ -14,7 +14,7 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1' # Or your Ruby version, check your Gemfile.lock
+          ruby-version: '3.2.3' # Or your Ruby version, check your Gemfile.lock
           bundler-cache: true
 
       - name: Build with Jekyll
