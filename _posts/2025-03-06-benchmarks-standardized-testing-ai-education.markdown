@@ -1,18 +1,23 @@
 ---
 layout: post
-title:  "AI Benchmarks: Are We  Teaching to the Test And Juking the Stats?"
+title:  "AI Benchmarks: Are We Juking the Stats?"
 date:   2025-03-06 11:55:42 -0500
 categories: jekyll update
 ---
 
 ![Tweet and XKCD reply about needing more benchmarks](/assets/benchmarks.png)
 
+I think I've seen this movie before. 
 
-The contrast of my experience with generative AI models and headlines like "New SOTA Model Crushes SWE-bench!" feel familiar. Too familiar. It reminded me of standardized testing in schools, and that's not a good thing.
+I've got experience in education (teaching prek, K, 4th, 6th, and college). I've got experience in tech (90's AOL/ICQ script kiddie/webmaster turned founder). Today I'm your average generative AI user.
 
-Education is in my bag. I'm not technical but I've been in tech for a long time (two acquisitions, 90's era AOL/ICQ script kiddie). Today I'm your average generative AI user. Aside from quickly discerning if a model is at least GPT-4 class, benchmarks don’t tell me anything about how useful a model will be. 
+I care about as much about SWE-bench rankings as I did as a teacher about standardized test scores. 
 
-Oneshotting a prompt is cool, but can Claude 3.7 or 03-mini troubleshoot my code without further making a mess of things? 
+ Aside from quickly discerning if a model is at least GPT-4 class, benchmarks don’t tell me anything about how useful a model will be. Very similarly, standardized tests only gave me the broadest sense of what a student had learned and knew. Even then they suffered from false positives. Meaning a student might show proficiency on a test, but dig a bit beyond the surface and said student might not actually have learned what the test showed. How does that happen? Well, one way is by teaching to the test.
+
+ The call for better benchmarks in generative AI is very similar to what's happened in education in America over the past 25 years. What we have done is establish a testing-industrial complex. What we haven't done is meaningfully improve student outcomes.
+
+So with gen AI, sure oneshotting a prompt is cool, but can Claude 3.7 or 03-mini troubleshoot my code without further making a mess of things? 
 
 Will GPT 4.5 better rework my writing than Gemini 2.0 Pro Experimental 2-05? 
 
@@ -20,49 +25,52 @@ Does Grok have better context to understand cognitively guided instruction to he
 
 Those are the kinds of things I want the current class of generative AI to help me with. Benchmarks, if anything, just mislead me about a model's capabilities.
 
-When I was a classroom teacher, I saw something similar. Annual standardized test scores were divorced from what my students actually knew. They kinda, sorta told me something, but they weren’t useful beyond the broadest of strokes. Even then they suffered from false positives. Meaning a student might show proficiency on a test, but dig a bit beyond the surface and said student might not actually have learned what the test showed. How does that happen? Well, one way is by teaching to the test.
-
 ### The Allure (and Illusion) of Measurement
 
-The core idea behind both AI benchmarks and standardized tests is understandable. We want to know if AI models are getting "smarter," just like we want to know if our students are learning. On its face, this sounds reasonable, but in education in America 8th grade math and literacy scores haven’t improved in a meaningful manner in 60 years. Yes, read that again. When the articles come out every year about "test scores are down", look at two things: 
-1. the trend line dating back as far as you can see (for NAEP that's 1973) and 
-2. where do the averages fall and what does that mean? When you look at both you see next to no progress, and an average that means the majority of students are going to fail out of or just scrape by the high school math curriculum.
+The core idea behind both AI benchmarks and standardized tests is understandable. We want to know if AI models are getting "smarter," just like we want to know if our students are learning. 
 
-It doesn't have to be this way. Yet we continue to test the ever loving shit out of students at all levels. I remember kindergarten kids crying at the pre-test they had to take the first week of school as a part of the broader testing complex that now exists. Traumatizing five year olds, not exactly the best practice for creating a learning environment. 
+On its face, this sounds reasonable, but in education in America 8th grade math and literacy scores haven’t improved in a meaningful manner in 60 years. Yes, read that again. When the articles come out every year about "test scores are down", look at two things: 
+1. The trend line dating back as far as you can see (for NAEP that's 1973) and 
+2. Where do the averages fall and what does that mean? When you look at both you see next to no progress, and an average that means the majority of students are going to fail out of or just scrape by the high school math curriculum.
 
-So over multiple generations we have managed to make no real gains, and create a testing-industrial complex that does have real, unintended yet negative consequences. 
+It doesn't have to be this way. Yet we continue to test the ever loving shit out of students at all levels. I remember kindergarten kids crying at the pre-test they had to take the first week of school as a part of the broader testing regime that now exists. Traumatizing five year olds, not exactly the best practice for creating a learning environment. 
+
+So over multiple generations we have managed to make no real gains, and create a testing-industrial complex that does have real, unintended negative consequences. 
 
 Standardized tests aren't just used to measure student learning. By extension, they're used to measure teacher effectiveness. Phrases like "quality teachers make the difference" and “every student deserves a quality teacher” are hard to dispute. They are good sound bites! Grifters like Vivek are still out there using them today. Give me a few paragraphs and you'll see why this is pretty stupid.
 
-This hasn't led to quality teachers for every student. What it has led to is a very American thing. Entrench an ineffective system in the name of quality and accountability. Unlike say, the Japanese, who focus on building a better system to achieve quality. It all feels very 1970s/1980s U.S. auto manufacturing.
+Testing hasn't led to quality teachers for every student. What it has led to is a very American thing. Entrenchment of an ineffective system in the name of quality and accountability. Unlike say, the Japanese, who focus on building a better system to achieve quality. It all feels very 1970s/1980s U.S. auto manufacturing.
 
-Bill Gates, a man whose wealth and work need no introduction, bought into this American idea of teacher quality. The genesis I can't say, but he published an article in 2010 that kicked all of this off. We can fast forward to 2016 and read the RAND report on the $575 million initiative the Gates Foundation launched based on this premise. The result? A resounding, [expensive failure][rand-gates]. Not only did it not improve student outcomes, in many cases, it actively harmed them. 
+Bill Gates, a man whose wealth and work need no introduction, bought into this American idea of teacher quality. The genesis I can't say, but he published an article in 2010 that kicked off an initiative that married test scores and teacher evaluations to come up with teacher ratings so that we could see who the 'quality' teachers were. In industry, we would call this performance management. We can fast forward to 2016 and read the RAND report on the $575 million initiative the Gates Foundation launched based on this premise. The result? A resounding, [expensive failure][rand-gates]. Not only did it not improve student outcomes, in many cases, it actively harmed them. 
 
 ![4 Panel Padme Anakin Star Wars meme about Anakin doing something bad](/assets/prequel.jpg)
 
-The push for 'teacher quality' was too strong of a siren song so it spread across the country well before the 2016 RAND report dropped. I was in the classroom during this time. It was something I bet anyone who has worked in an organization of size can relate to. Some top-down fuckery that sucks all of the oxygen out of the room, takes a ton of time, and doesn't overlap much if at all with the real work or improvement you need to do for your job.
+The push for 'teacher quality' was a strong siren song. So strong that it spread across the country well before the 2016 RAND report dropped. I was in the classroom during this time. It was something I bet anyone who has worked in an organization of size can relate to. Some top-down fuckery that sucks all of the oxygen out of the room, takes a ton of time, and doesn't overlap much if at all with the real work or improvement you need to do for your job.
 
-The real bitch of all of this is that a person with an iota of experience in other industries or perhaps even someone who has picked up a book and read some history could easily see parallels that showed how bad of an idea this was before it even began. In 2015 I remember nodding along as I read the  [HBR article about performance management at Deloitte][hbr-deloitte]. They put some hard numbers to something that everyone knows, performance management is a major time suck and divorced from actual performance or employee improvement. Education was doubling down on a heavyweight performance management system at this exact time thanks to Gates and the push for 'teacher quality.'
+Now a person with an iota of experience in other industries or perhaps even someone who has picked up a book and read some history could see parallels that showed how bad of an idea this was before it even began. In 2015 I remember nodding along as I read the  [HBR article about performance management at Deloitte][hbr-deloitte]. They put some hard numbers to something that everyone knows, performance management is a major time suck and divorced from actual performance or employee improvement. Education was doubling down on a heavyweight performance management system at this exact time thanks to Gates and the push for 'teacher quality.'
 
 But hey, that was 2015 when things were already in full swing, and maybe Gates doesn't read HBR.
 
 The one that I truly don’t understand though was right under Bill Gates’ nose.
 
-In 2012, Kurt Eichenwald published [Microsoft’s Lost Decade][msft-lost]. This article became a cultural touchstone. Why? Because it pulled back the curtain on how the tech juggernaut could whiff on the two biggest shifts in tech since the internet (mobile and social) and be late to the third (cloud). Gates, who was still chairman throughout the 2000's had a front row seat to see how Microsoft's malevolent performance management system and its stack ranking of employees had played a huge role in the company enduring a lost decade. 
+### Performance Managing Microsoft Off A Cliff
+
+> "Every current and former Microsoft employee I interviewed -- every one -- cited stack ranking as the most destructive process inside of Microsoft, something that drove out untold numbers of employees" - Kurt Eichenwald
+
+In 2012, Kurt Eichenwald published [Microsoft’s Lost Decade][msft-lost]. This article became a cultural touchstone. Why? Because it pulled back the curtain on how the tech juggernaut could whiff on the two biggest opportunities in tech since the internet itself (mobile and social) and be late to the third (cloud). Gates, who was still chairman throughout the 2000's had a front row seat to see how Microsoft's malevolent performance management system and its stack ranking of employees had played a huge role in the company enduring a lost decade. 
 
 For anyone who is unfamiliar with stack ranking, imagine you were a CIA agent trying to sabotage a company. You want to make the company slow, distrustful, kill employee morale, motivation, and productivity. Your primary goal would be to implement stack ranking. 
 The system that turned Gates’ company into an incapable sloth is what he proposed as the antidote for America’s education woes. 
 
-I knew enough about history, human nature, and systems to know this was a bad idea. It pissed me off.
-To have gone down this path, at this time, Bill Gates must know something I don’t. What that is though, I cannot fathom.
+Bill Gates must know something I don’t to have thought bringing this type of performance management to education was a good idea after it had ravaged Microsoft. What that is though, I cannot fathom.
 
 ### Goodhart's Law: When the Measure Becomes the Target
 
-This brings us to a crucial concept: Goodhart's Law. It essentially states that when a measure becomes a target, it ceases to be a good measure. 
+This brings us to Goodhart's Law. It essentially states that when a measure becomes a target, it ceases to be a good measure. 
 
 An example: if you tell a factory manager her variable compensation is tied to a reduction in scrap, then she will encourage her shift managers to push every piece produced out the door, quality be damned. Rejected pieces returned by customers will languish in the warehouse because processing them would hit her scrap numbers. The system gets gamed, the company loses goodwill with customers, problems are pushed down the road, but the manager earns her variable comp.
 
-In education, this plays out tragically. Picture this scenario (which, sadly, happens to often in schools):
+In education, this plays out tragically. Picture this scenario (which, sadly, happens too often in schools):
 
 1. **Low Test Scores:** A school district's standardized test scores are below par.
 2. **State Threatens Takeover:** The state warns of intervention if scores don't improve within a set timeframe.
