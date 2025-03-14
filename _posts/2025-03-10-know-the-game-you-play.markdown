@@ -41,4 +41,11 @@ There are countless other games we all play every day, whether we want to or not
 
 Most people cannot opt out. A very select few can change the game, or change the rules. A society is a system after all, and Donella Meadows explained to us that [the most powerful and lasting way to change a system][change-system] is a paradigm shift. It’s also the most challenging to do.
 
+
+
+Footnote:
+
+This biography about [Carl Icahn][king-icahn] is a good look into the old world being blindsided by the new realities of Milton Friedman's capitalism. In the 1980's Icahn ran through companies like a buzzsaw whose managements had not yet realized that the game had changed. These battles defined what "fiduciary responsibility to shareholders" would look like moving forward.
+
 [change-system]: https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/
+[king-icahn]: https://www.goodreads.com/book/show/22673027-king-icahn
