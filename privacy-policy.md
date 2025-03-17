@@ -8,7 +8,9 @@ permalink: /privacy-policy/
 
 Last updated: March 6, 2025
 
-I added Google Analytics to the blog. This is some boilerplate. All I'm doing is seeing if anyone shows up. I'm not using data for any other purposes. I
+I added Google Analytics to the blog. Below is some boilerplate to satisfy privacy requirements. All I'm doing is seeing if anyone shows up. I'm not using data for any other purposes. 
+
+----------------------------------
 
 This Privacy Policy describes my policies and procedures on the collection, use and disclosure of your information when you use the service and tells You about Your privacy rights and how the law protects You.
 
