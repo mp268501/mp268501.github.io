@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Cognitive Dissonance: The 8th Wonder of the World"
+title:  "Cognitive Dissonance"
 date:   2025-03-26 11:55:42 -0500
 categories: jekyll update
 ---
@@ -10,11 +10,11 @@ My habits brought this to the forefront this week. I deeply recognize their impo
 
 However, this positive flywheel is built with too many easy off-ramps. One slip leads to another, leads to another, and then I'm zipping around on a negative flywheel without really being conscious of it.
 
-At this stage of my life, I have a significant degree of freedom to choose how I spend my time. It’s like living in a massively open-world game. But that freedom can be a double-edged sword. A weekend trip disrupts routine. Then I don't eat any regular meals on Monday. A late night working leads to tiredness on Tuesday. Tiredness invites snacking and sweets. Cognition nosedives. Suddenly, without any deliberate decision, I'm spinning downward on that negative flywheel, and it's rapidly picking up speed.
+At this stage of my life, I have a significant degree of freedom to choose how I spend my time. It’s like living in a massively open-world game. But that freedom can be a double-edged sword. A weekend trip disrupts routine. Then I don't eat any regular meals on Monday. A late night working leads to tiredness on Tuesday. Tiredness invites snacking and sweets. Cognition nosedives. Suddenly, without any deliberate decision, I'm spinning downward on that negative flywheel.
 
-I understand these Dark Arts on an intellectual level. I have tactics and practice with defense against them, but they're not called the dark arts for no reason. They know how to short-circuit those defenses.
+I understand these Dark Arts on an intellectual level. I have tactics and practice with defense against them, but they're not called the Dark Arts for no reason. They know how to short-circuit those defenses.
 
-Ok, so those are habits, but here's where the cognitive dissonance comes into play.
+Ok, so those are habits, but here is where the cognitive dissonance comes into play.
 
 It hit me while thinking about a friend's toddler, who is grumpy during routine things they do every day. I've taught preschoolers and kindergartners. I know that young children rely on adults to be their prefrontal cortex. Routines and habits are essential. Stick to them, and daily activities like meals and bedtime are manageable. Deviate and you're setting yourself up for tantrums. Structure helps keep our little friends regulated.
 
@@ -26,13 +26,13 @@ Pot, meet kettle.
 
 Richard Feynman famously [stated at a Caltech commencement that][feynman-fool], "The first principle is that you must not fool yourself—and you are the easiest person to fool."
 
-I've built part of my career on my ability to observe how executives and organizations fool themselves. And yet, when it comes to looking in the mirror, I can still pull the wool over my own eyes. Cognitive dissonance truly is a dark art. 
+I've built part of my career on my ability to observe how executives and organizations fool themselves. And yet, when it comes to looking in the mirror, I can still pull the wool over my own eyes.
 
 The remedy though is simple.
 
 Reflection.
 
-There are plenty of tools and tactics to reflect like walks, voice memos, Morning Pages, friends, coaches, therapists or even talking to an LLM.
+There are plenty of tools and tactics to reflect: walks, voice memos, Morning Pages, friends, coaches, therapists or even talking to an LLM.
 
 The key thing to remember though is that if fooling ourselves is a first principle of human nature, then reflection, is a first principle of seeing reality. 
 
