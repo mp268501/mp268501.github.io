@@ -4,9 +4,9 @@ title:  "Cognitive Dissonance: The 8th Wonder of the World"
 date:   2025-03-26 11:55:42 -0500
 categories: jekyll update
 ---
-I bumped into an insidious and powerful force again this week. It wasn't "the 8th Wonder of the World", compounding, but something that also flexes its muscle behind the scenes. It's that sneaky little SOB, cognitive dissonance.
+I bumped into an insidious and powerful force again this week. Something that flexes its muscle behind the scenes--that sneaky little SOB, cognitive dissonance.
 
-It played out with my habits this week. I deeply recognize their importance. They create a positive flywheel effect. When that positive flywheel is spinning I feel good, I am healthier, think more clearly, create more, am more enjoyable to be around, and even my consumption habits become more mindful and enjoyable. I want that.
+My habits brought this to the forefront this week. I deeply recognize their importance. They create a positive flywheel effect. When that positive flywheel is spinning I feel good, I am healthier, think more clearly, create more, am more enjoyable to be around, and even my consumption habits become more mindful and enjoyable. I want that.
 
 However, this positive flywheel is built with too many easy off-ramps. One slip leads to another, leads to another, and then I'm zipping around on a negative flywheel without really being conscious of it.
 
