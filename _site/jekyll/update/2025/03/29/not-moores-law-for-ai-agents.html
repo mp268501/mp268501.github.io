@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>No. It’s Not A New Moore’s Law for AI Agents | Mark Pettyjohn</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="No. It’s Not A New Moore’s Law for AI Agents" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="TL;DR" />
+<meta property="og:description" content="TL;DR" />
+<link rel="canonical" href="http://localhost:4000/jekyll/update/2025/03/29/not-moores-law-for-ai-agents.html" />
+<meta property="og:url" content="http://localhost:4000/jekyll/update/2025/03/29/not-moores-law-for-ai-agents.html" />
+<meta property="og:site_name" content="Mark Pettyjohn" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-03-29T12:55:42-04:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="No. It’s Not A New Moore’s Law for AI Agents" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-03-29T12:55:42-04:00","datePublished":"2025-03-29T12:55:42-04:00","description":"TL;DR","headline":"No. It’s Not A New Moore’s Law for AI Agents","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/jekyll/update/2025/03/29/not-moores-law-for-ai-agents.html"},"url":"http://localhost:4000/jekyll/update/2025/03/29/not-moores-law-for-ai-agents.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Mark Pettyjohn" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Mark Pettyjohn</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a><a class="page-link" href="/privacy-policy/">Privacy Policy</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">No. It’s Not A New Moore’s Law for AI Agents</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2025-03-29T12:55:42-04:00" itemprop="datePublished">Mar 29, 2025
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>TL;DR</p>
+
+<p>METR wrote a <a href="https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/">paper</a> (reasonable, measured) and <a href="https://x.com/METR_Evals/status/1902384481111322929">tweeted</a> (sensational) that AI agent autonomy was doubling every seven months, insinuating that there was a new “Moore’s Law” for AI agents. You can tell by people’s reactions who read the paper and who looked at the tweet.</p>
+
+<p>There is no new Moore’s Law for AI Agents.</p>
+
+<p>Here’s why.</p>
+
+<h3 id="intro">Intro</h3>
+
+<p><img src="/assets/METRtweet.png" alt="Moore's Law for AI Agents" title="Tweet from the official METR account that states: In new research, we find a kind of “Moore’s Law for AI agents”: the length of tasks that AIs can do is doubling about every 7 months. The length of tasks AIs can do is doubling about every 7 months." /></p>
+
+<p>Let’s throw some cold water on this headline. It’s misleading, sensational, and alarmist. The paper the tweet is based on is more conservative and also cognizant of the study’s limitations.</p>
+
+<p>METR’s founder and CEO followed-up with a more measured tweet, but it has 1500x fewer views than the original.</p>
+
+<p><img src="/assets/persnick.png" alt="&quot;Persnickety title&quot;" title="Tweet from Elizabeth Barnes, the founder and CEO of METR that reads: Persnickety title would be: &quot;there's an exponential trend with doubling time between ~2 -12 months on automatically-scoreable, relatively clean + green-field software tasks from a few distributions&quot;. More detail on how we thought about external validity in paper and this thread" /></p>
+
+<p>If you do read the paper you will have to wade through abstractions as well as references to another paper from the same group that describes <a href="https://metr.org/hcast.pdf">HCAST, Human Calibrated Autonomy Software Tasks</a>. You may take issue with the methodologies or the research itself in either of these papers. I’ll leave those for someone else.</p>
+
+<p>I’m going to zero in on why this is not Moore’s Law for AI Agents.</p>
+
+<h3 id="moores-lawpredictable-from-observation-predictive-from-roadmap">Moore’s Law—Predictable from Observation. Predictive from Roadmap.</h3>
+
+<blockquote>
+  <p>“The number of transistors in an integrated circuit doubles every two years.”</p>
+  <ul>
+    <li>Gordon Moore</li>
+  </ul>
+</blockquote>
+
+<p>Gordon Moore made this prediction that became known as <a href="https://hasler.ece.gatech.edu/Published_papers/Technology_overview/gordon_moore_1965_article.pdf">Moore’s Law in 1965 after observing two years of this growth</a>. It ended up being predictive because it was based on four well-understood engineering challenges with clear paths for improvement.</p>
+
+<ol>
+  <li>Miniaturizing transistors and wires, fitting more onto a chip.</li>
+  <li>Improving the printing process for chips with four known ways to improve photolithography.</li>
+  <li>Making the wafers larger to accommodate more transistors.</li>
+  <li>Improving circuit design.</li>
+</ol>
+
+<p>Moore made the projection based on the observed trends in a rapidly developing, but fundamentally understandable technology.</p>
+
+<p>Now, did this prediction become a target that motivated the industry? Yes. History shows it created enormous pressure across the industry to invest in R&amp;D to drive this technological progress.</p>
+
+<p>The observation and the pressure are where similarities between Moore and METR end.</p>
+
+<h3 id="metrs-law-for-ai-agents">METR’s Law for AI Agents?</h3>
+<p>No.</p>
+
+<p>Here is why:</p>
+
+<p>In contrast with Moore’s Law there is not a set of well-understood engineering challenges with clear paths for improvement that will continue to drive growth in AI agents’ abilities.</p>
+
+<h4 id="the-contrast-with-moores-law">The Contrast With Moore’s Law</h4>
+
+<ul>
+  <li>Observe an early trend</li>
+  <li>Understand the underlying technology</li>
+</ul>
+
+<p>In generative AI, METR is observing an early trend, similar to Moore.</p>
+
+<p>But what’s going to continue driving improvements that could enable doubling?</p>
+
+<p>Who, if anyone, truly understands the underlying technology? There is a lot going on underneath the hood of generative AI. <a href="https://www.anthropic.com/news/tracing-thoughts-language-model">Anthropic’s research</a> about understanding the thoughts of a language model demonstrates both how much is happening and how much we don’t yet understand about this technology.</p>
+
+<p>I’m not saying there won’t be many more improvements to come in generative AI. I am saying that it is premature to call for a Moore’s Law for AI Agents without understanding where those improvements might come from.</p>
+
+<h3 id="an-ai-roadmap-or-premature-extrapolation">An AI roadmap or Premature Extrapolation</h3>
+
+<p>Capital has poured into GenAI and continues to do so. The large labs are in constant competition. The pressure that Gordon Moore thought was needed to drive Moore’s Law already exists in spades in the generative AI industry.</p>
+
+<p>It’s the roadmap that is missing.</p>
+
+<p>What’s the data, algorithm, compute, or unknown that’s going to get us to autonomy?</p>
+
+<p>The waters are muddy.</p>
+
+<p>The rhetoric from Sam and Dario has been off the charts about expecting something approximating AGI. They have better seats than anyone to see the whole field, but we also have to discount what they say. For one, CEOs will always talk their book. Second, we’ve seen how some of what they’ve proclaimed hasn’t proven true (e.g. scaling laws for pre-training will drive us to AGI.)</p>
+
+<p>I don’t see an equivalent to Gordon Moore’s four-part roadmap. Instead I see unknowns, which means a need for more research to unlock potential breakthroughs that could make METRs observation into a continued reality.</p>
+
+<p>The tsunami of cash being poured into the field alongside a history of AI that stretches back 70 years makes for ripe conditions for advances. What those may be though are unclear.</p>
+
+<h3 id="communication-is-perception">Communication Is Perception</h3>
+<p>Is METR’s headline what we need communicated right now?</p>
+
+<p>Communication is perception. A principle often ignored by people that try to communicate something is that it doesn’t matter what you say, it matters what others hear.</p>
+
+<p>What people are hearing in reaction to this headline is “AI will take over knowledge work.”</p>
+
+<p>Andrew Yang’s reaction was illustrative.</p>
+
+<p>There’s an argument that METR’s research puts pressure on society to become aware of the potential for a fundamental reordering of society, and for planning to start taking place about what that could look like.</p>
+
+<p>There’s also an argument that this is alarmist and untrue.</p>
+
+<p>Does it matter what this headline communicates?</p>
+
+<p>We live in uncertain and unclear times, and I truly don’t know.</p>
+
+
+  </div><a class="u-url" href="/jekyll/update/2025/03/29/not-moores-law-for-ai-agents.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Mark Pettyjohn</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Mark Pettyjohn</li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Notes to knowledge. Live long and prosper.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
