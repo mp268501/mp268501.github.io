@@ -11,28 +11,22 @@ METR wrote a [paper][ai-agents] (reasonable, measured) and [tweeted][metr-tweet]
 
 There is no new Moore’s Law for AI Agents. 
 
-Here’s why.
+Read on to see why.
 
-### Intro
+Original tweet that got all of the attention.
 
 ![Moore's Law for AI Agents](/assets/METRtweet.png "Tweet from the official METR account that states: In new research, we find a kind of “Moore’s Law for AI agents”: the length of tasks that AIs can do is doubling about every 7 months. The length of tasks AIs can do is doubling about every 7 months.")
 
-Let’s throw some cold water on this headline. It’s misleading, sensational, and alarmist. The paper the tweet is based on is more conservative and also cognizant of the study's limitations.
-
-METR’s founder and CEO followed-up with a more measured tweet, but it has 1500x fewer views than the original.
+More measured tweet from METR’s founder and CEO. Notice the 1500x fewer views than the original.
 
 !["Persnickety title"](/assets/persnick.png "Tweet from Elizabeth Barnes, the founder and CEO of METR that reads: Persnickety title would be: "there's an exponential trend with doubling time between ~2 -12 months on automatically-scoreable, relatively clean + green-field software tasks from a few distributions". More detail on how we thought about external validity in paper and this thread")
-
-If you do read the paper you will have to wade through abstractions as well as references to another paper from the same group that describes [HCAST, Human Calibrated Autonomy Software Tasks][hcast]. You may take issue with the methodologies or the research itself in either of these papers. I’ll leave those for someone else. 
-
-I’m going to zero in on why this is not Moore's Law for AI Agents.
 
 ### Moore’s Law—Predictable from Observation. Predictive from Roadmap.
 
 > “The number of transistors in an integrated circuit doubles every two years.”
 - Gordon Moore
 
-Gordon Moore made this prediction that became known as [Moore’s Law in 1965 after observing two years of this growth][moores-law]. It ended up being predictive because it was based on four well-understood engineering challenges with clear paths for improvement.
+Gordon Moore's infamous prediction was made [in 1965 after observing two years of this growth][moores-law]. It ended up being predictive because it was based on four well-understood engineering challenges with clear paths for improvement.
 
 1. Miniaturizing transistors and wires, fitting more onto a chip.
 2. Improving the printing process for chips with four known ways to improve photolithography.
@@ -45,25 +39,25 @@ Now, did this prediction become a target that motivated the industry? Yes. Histo
 
 The observation and the pressure are where similarities between Moore and METR end.
 
+
+
+
 ### METR’s Law for AI Agents?
 No. 
 
-Here is why:
-
 In contrast with Moore’s Law there is not a set of well-understood engineering challenges with clear paths for improvement that will continue to drive growth in AI agents’ abilities.
 
-#### The Contrast With Moore's Law
+The measurements for the engineering challenges Moore saw were objective. METR's attempt to quantify AI Agent ability is subjective. If you read the research paper as well as the [HCAST, Human Calibrated Autonomy Software Tasks][hcast] paper that it references you'll see how much subjectivity went into coming up with a way to measure AI agent ability.
 
-- Observe an early trend
-- Understand the underlying technology
+That's a longer way of saying, microchip measurements were straightforward. AI agent ability is measuring knowledge work, which is fundamentally subjective.
+
+#### The Contrast With Moore's Law
 
 In generative AI, METR is observing an early trend, similar to Moore. 
 
 But what’s going to continue driving improvements that could enable doubling?
 
-Who, if anyone, truly understands the underlying technology? There is a lot going on underneath the hood of generative AI. [Anthropic’s research][anthropic-thoughts] about understanding the thoughts of a language model demonstrates both how much is happening and how much we don’t yet understand about this technology.
-
-I’m not saying there won’t be many more improvements to come in generative AI. I am saying that it is premature to call for a Moore’s Law for AI Agents without understanding where those improvements might come from.
+Who, if anyone, truly understands the underlying technology? There is a lot going on underneath the hood of a generative AI model. [Anthropic’s research][anthropic-thoughts] about understanding the thoughts of a language model demonstrates both how much is happening and how much we don’t yet understand about this technology.
 
 ### An AI roadmap or Premature Extrapolation
 
@@ -75,31 +69,38 @@ What’s the data, algorithm, compute, or unknown that’s going to get us to au
 
 The waters are muddy. 
 
-The rhetoric from Sam and Dario has been off the charts about expecting something approximating AGI. They have better seats than anyone to see the whole field, but we also have to discount what they say. For one, CEOs will always talk their book. Second, we’ve seen how some of what they’ve proclaimed hasn’t proven true (e.g. scaling laws for pre-training will drive us to AGI.)
+The rhetoric from Sam and Dario has been off the charts about expecting something approximating AGI. They have better seats than anyone to see the whole field, but we also have to discount what they say. For one, CEOs will always talk their book. Second, we’ve seen how some of what they have proclaimed hasn’t proven true (e.g. scaling laws for pre-training will drive us to AGI.)
 
-I don’t see an equivalent to Gordon Moore’s four-part roadmap. Instead I see unknowns, which means a need for more research to unlock potential breakthroughs that could make METRs observation into a continued reality.
+I don’t see an equivalent to Gordon Moore’s four-part roadmap. Instead I see unknowns. Does more basic research need to be done? Could we strip mine the mountain of AI research that already exists for ideas that could unlock potential breakthroughs that could make METRs observation into a continued reality?
 
 The tsunami of cash being poured into the field alongside a history of AI that stretches back 70 years makes for ripe conditions for advances. What those may be though are unclear.
 
 ### Communication Is Perception
+Here's one I'm torn on, but it seems worth calling out.
+
 Is METR's headline what we need communicated right now?
 
-Communication is perception. A principle often ignored by people that try to communicate something is that it doesn’t matter what you say, it matters what others hear.
+Communication is perception. 
+
+It doesn’t matter what you say, it matters what others hear. This is a principle often ignored by people that try to communicate.
 
 What people are hearing in reaction to this headline is “AI will take over knowledge work.”
 
-Andrew Yang’s reaction was illustrative.
+[Andrew Yang’s reaction][yang-reaction] was illustrative and representative of reactions to METR's announcement.
 
-There’s an argument that METR’s research puts pressure on society to become aware of the potential for a fundamental reordering of society, and for planning to start taking place about what that could look like.
+There’s an argument that METR’s research puts pressure on the world to become aware of the potential for a fundamental reordering of society.
 
 There’s also an argument that this is alarmist and untrue.
 
-Does it matter what this headline communicates?
+The U.S. is alight in gaslighting these days and maybe I'm just irked at a sensational headline. 
 
-We live in uncertain and unclear times, and I truly don’t know.
+But at the same time, for someone whose life's work is to build a better education system, the potential of AI to reorder society as we know has some pretty big implications for that work. 
+
+Trying to sort through that while in the fog of uncertain and unclear times is a challenge in its own right, and misleading headlines don't help.
 
 [ai-agents]: https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/
 [metr-tweet]: https://x.com/METR_Evals/status/1902384481111322929
 [hcast]: https://metr.org/hcast.pdf
 [moores-law]: https://hasler.ece.gatech.edu/Published_papers/Technology_overview/gordon_moore_1965_article.pdf
 [anthropic-thoughts]: https://www.anthropic.com/news/tracing-thoughts-language-model
+[yang-reaction]: https://x.com/AndrewYang/status/1902468574641328417
