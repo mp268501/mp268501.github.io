@@ -28,6 +28,11 @@ url: "https://markpettyjohn.com" # the base hostname & protocol for your site, e
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
+collections:
+  influences:
+    output: true  # Ensures each file gets its own standalone page
+    permalink: /influences/:path/ # defines the URL structure (e.g., /influences/clairepatterson)
+
 # Build settings
 theme: minima
 
