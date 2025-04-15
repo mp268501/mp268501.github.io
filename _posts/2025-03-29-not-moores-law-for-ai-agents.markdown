@@ -92,9 +92,9 @@ There’s an argument that METR’s research puts pressure on the world to becom
 
 There’s also an argument that this is alarmist and untrue.
 
-The U.S. is alight in gaslighting these days and maybe I'm just irked at a sensational headline. 
+The U.S. is alight in gaslighting these days so maybe I'm just irked by a sensational headline. 
 
-But at the same time, for someone whose life's work is to build a better education system, the potential of AI to reorder society as we know has some pretty big implications for that work. 
+But at the same time, for someone whose life's work is to build a better education system, the potential of AI to reorder society as we know it has some pretty big implications for that work. 
 
 Trying to sort through that while in the fog of uncertain and unclear times is a challenge in its own right, and misleading headlines don't help.
 

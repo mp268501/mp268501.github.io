@@ -1,4 +1,64 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-04-09T11:50:43-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Mark Pettyjohn</title><subtitle>Notes to knowledge. Live long and prosper.</subtitle><entry><title type="html">No. It’s Not A New Moore’s Law for AI Agents</title><link href="http://localhost:4000/jekyll/update/2025/03/29/not-moores-law-for-ai-agents.html" rel="alternate" type="text/html" title="No. It’s Not A New Moore’s Law for AI Agents" /><published>2025-03-29T12:55:42-04:00</published><updated>2025-03-29T12:55:42-04:00</updated><id>http://localhost:4000/jekyll/update/2025/03/29/not-moores-law-for-ai-agents</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2025/03/29/not-moores-law-for-ai-agents.html"><![CDATA[<p>TL;DR</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-04-15T09:34:12-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Mark Pettyjohn</title><subtitle>Notes to knowledge. Live long and prosper.</subtitle><entry><title type="html">Is Meta Having Its Microsoft Moment?</title><link href="http://localhost:4000/jekyll/update/2025/04/10/metas-microsoft-moment.html" rel="alternate" type="text/html" title="Is Meta Having Its Microsoft Moment?" /><published>2025-04-10T12:55:42-04:00</published><updated>2025-04-10T12:55:42-04:00</updated><id>http://localhost:4000/jekyll/update/2025/04/10/metas-microsoft-moment</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2025/04/10/metas-microsoft-moment.html"><![CDATA[<blockquote>
+  <p>“Every current and former Microsoft employee I interviewed – every one – cited stack ranking as the most destructive process inside of Microsoft” - Kurt Eichenwald</p>
+</blockquote>
+
+<p>This quote lives rent free in my head. If stack ranking has no haters, I am dead.</p>
+
+<p>I’m a firm believer in the potential of people as well as being fair. It’s the decent thing to do and it also makes good business sense. Set clear expectations, ensure people know what they are supposed to do, ensure they know a way to do it, and ensure they receive feedback as to whether they are doing it well or not. Modern performance management does almost none of that. It’s not quite an Orwellian term, but it is euphemistic. Performance management is subjectivity masquerading as objectivity. It almost never motivates or actually improves performance, but it is great at demotivating an employee and causing dissatisfaction.</p>
+
+<p>Layer in some kind of forced ranking or curve system such as stack ranking, or the name du jour for it, and you have taken an already bad system and made it toxic. I don’t care what lens you look at it through, it is a horrible, no good, very bad system. Yes, I can strap on my executive hat and look at it from the 30,000 foot view.</p>
+
+<p>The higher order effects of stack ranking can cripple even the most venerable organizations. No thought experiment is needed, because we have Microsoft as evidence.</p>
+
+<p>Yes, Microsoft is still here today. It is hard to take down an aircraft carrier. But two things can be true at the same time. Stack ranking was disastrous for Microsoft and destroyed its ability to do anything but ride on the back of its legacy systems throughout the 2000’s. Microsoft could not innovate, could not ship, and could not coordinate to save its life.</p>
+
+<p>But humans are very good at not learning from history. B.H. Liddell Hart wrote a neat little book about that in 1944. If Hart doesn’t jive with you, then maybe Hegel will. The point being, tech CEOs seem to still love stack ranking in spite of its ugly flaws on display. It’s like having an affinity for cigarettes in 2025. I don’t get it.
+https://www.amazon.com/Why-Dont-We-Learn-History/dp/0985081139
+https://old.reddit.com/r/askphilosophy/comments/w7gv5q/what_does_hegel_mean_by_the_only_thing_that_we/</p>
+
+<p>I have watched over the years since that Eichenwald piece came out that exposed how stack ranking neutered Microsoft’s innovative abilities and seen how stack ranking refuses to die. Silicon Valley is amazing and also full of shit. “Data driven” companies and CEOs are still rolling out their own vesions of forced ranking in spite of the evidence of its ineffectiveness. 
+https://www.nysscpa.org/article-content/tech-companies-revive-stack-ranking-even-though-it-has-been-shown-to-be-ineffective-021623</p>
+
+<p>One painful example from the mid-2010’s was from Marissa Mayer who took stack ranking to Yahoo! The company was already behind its peers with its main value being derived from its shares in Alibaba when Mayer came on board. For Yahoo!, stack ranking was like taking the head of a drowning person and holding it underwater. Mayer held an infamous all-hands where she read the children’s book If Bobbie Had a Nickel to all 4,000 Yahoos who had wanted her to address the disastrous effect stack ranking was having on the company. 
+https://www.wwno.org/2015-01-06/can-marissa-mayer-save-yahoo</p>
+
+<p>Meta/Facebook has had an intense evaluation system for quite awhile. Remember, an aircraft carrier is so large and has so much momentum, the sea can’t stop it.</p>
+
+<p>The problem is that humans are a fearful species. Fear is a tremendous motivator at bringing out the worst in our nature. If you want people to stab each other in the back, malicious compliance,</p>
+
+<p>Performance management has its defenders. One thing I dislike about it is how divorced it is from the work that needs to be done to be effective. Go to a company that has a form of stack ranking and this will be on full display. Employees will respond perfectly to their incentives, which will be to do exactly what they need to do for their performance review. This is so rarely what needs to be done to be effective.</p>
+
+<p>Yes, lots of big co’s do this. That doesn’t mean it’s effective. This is another lesson that must repeatedly be learned. Just because a big company does it, doesn’t mean it’s an effective practice. How much has Amazon wasted on Alexa? How’s the metaverse going? Have you enjoyed talking to Siri lately?</p>
+
+<p>Back to Meta.</p>
+
+<p>Llama 4 dropped on Saturday and it appears, fine. I have zero insider knowledge, but I am a pattern matching machine. When a company has stack ranking I expect it to eventually show signs. Meta is still a massive aircraft carrier. Earnings will continue, they will persist, but internally, I have to wonder if they are experiencing what Microsoft did in the 2000’s.</p>
+
+<p>Instead of a group of people working together towards a common goal, trying to amplify each others’ strengths and collectively make their individual weaknesses irrelevant, you have people learning what games they have to play to avoid the culling.</p>
+
+<p>https://www.jointaro.com/question/lScy3l2NPIrWvRuHOjcF/how-does-stack-ranking-work-at-faang-and-how-can-i-be-proactive-at-a-base-level/
+https://www.promotions.fyi/company/meta/performance-review</p>
+
+<p>“Was at Amazon. If you’re on a small team of 5 and everyone is a high performer, you have people sabotaging each other. Nobody wants to help because it takes time away from each other. This is a bad move for a shitty culture and you can’t trust anyone - even your boss.</p>
+
+<p>This is a short term gain, long term loss. Amazon has delivered shit for AI and is in last place. Why would you follow their culture?”</p>
+
+<p>Is this anecdote true? I don’t know, but this is exactly what stack ranking promotes. It is unbelieveably dumb, but looking at what is happening in America right now, this kind of stupidity seems par for the course.
+https://www.reddit.com/r/wallstreetbets/comments/1i1ejp7/meta_is_cutting_5_of_its_lowest_performers/</p>
+
+<p>And also not being stupid. Stack ranking is stupid. It’s nerfing your own business.</p>
+
+<p>When you are an aircraft carrier, very little can knock you off course.</p>
+
+<p>In 2012, Kurt Eichenwald published [Microsoft’s Lost Decade][msft-lost]. This article became a cultural touchstone. Why? Because it pulled back the curtain on how the tech juggernaut could whiff on the two biggest opportunities in tech (mobile and social)since the internet itself and be late to the third (cloud). Gates, who was still chairman throughout the 2000’s had a front row seat to see how Microsoft’s malevolent performance management system and its stack ranking of employees had played a huge role in the company enduring a lost decade.</p>
+
+<p>For anyone who is unfamiliar with stack ranking, imagine you were a CIA agent trying to sabotage a company. You want to make the company slow and distrustful. You want to kill employee morale, motivation, and productivity. You want to make high performers hesitant to work with each other. You want to destroy collaboration. Your primary goal would be to get the company to adopt stack ranking.</p>
+
+<p>This system that turned Gates’ company into an incapable sloth is what he proposed as the antidote for America’s education woes.</p>
+
+<h3 id="performance-managing-microsoft-off-a-cliff">Performance Managing Microsoft Off A Cliff</h3>
+
+<p>TL;DR</p>
 
 <p>METR wrote a <a href="https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/">paper</a> (reasonable, measured) and <a href="https://x.com/METR_Evals/status/1902384481111322929">tweeted</a> (sensational) that AI agent autonomy was doubling every seven months, insinuating that there was a new “Moore’s Law” for AI agents. You can tell by people’s reactions who read the paper and who looked at the tweet.</p>
 
@@ -92,6 +152,100 @@
 
 <p>But at the same time, for someone whose life’s work is to build a better education system, the potential of AI to reorder society as we know has some pretty big implications for that work.</p>
 
+<p>Trying to sort through that while in the fog of uncertain and unclear times is a challenge in its own right, and misleading headlines don’t help.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[“Every current and former Microsoft employee I interviewed – every one – cited stack ranking as the most destructive process inside of Microsoft” - Kurt Eichenwald]]></summary></entry><entry><title type="html">No. It’s Not A New Moore’s Law for AI Agents</title><link href="http://localhost:4000/jekyll/update/2025/03/29/not-moores-law-for-ai-agents.html" rel="alternate" type="text/html" title="No. It’s Not A New Moore’s Law for AI Agents" /><published>2025-03-29T12:55:42-04:00</published><updated>2025-03-29T12:55:42-04:00</updated><id>http://localhost:4000/jekyll/update/2025/03/29/not-moores-law-for-ai-agents</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2025/03/29/not-moores-law-for-ai-agents.html"><![CDATA[<p>TL;DR</p>
+
+<p>METR wrote a <a href="https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/">paper</a> (reasonable, measured) and <a href="https://x.com/METR_Evals/status/1902384481111322929">tweeted</a> (sensational) that AI agent autonomy was doubling every seven months, insinuating that there was a new “Moore’s Law” for AI agents. You can tell by people’s reactions who read the paper and who looked at the tweet.</p>
+
+<p>There is no new Moore’s Law for AI Agents.</p>
+
+<p>Read on to see why.</p>
+
+<p>Original tweet that got all of the attention.</p>
+
+<p><img src="/assets/METRtweet.png" alt="Moore's Law for AI Agents" title="Tweet from the official METR account that states: In new research, we find a kind of “Moore’s Law for AI agents”: the length of tasks that AIs can do is doubling about every 7 months. The length of tasks AIs can do is doubling about every 7 months." /></p>
+
+<p>More measured tweet from METR’s founder and CEO. Notice the 1500x fewer views than the original.</p>
+
+<p><img src="/assets/persnick.png" alt="&quot;Persnickety title&quot;" title="Tweet from Elizabeth Barnes, the founder and CEO of METR that reads: Persnickety title would be: &quot;there's an exponential trend with doubling time between ~2 -12 months on automatically-scoreable, relatively clean + green-field software tasks from a few distributions&quot;. More detail on how we thought about external validity in paper and this thread" /></p>
+
+<h3 id="moores-lawpredictable-from-observation-predictive-from-roadmap">Moore’s Law—Predictable from Observation. Predictive from Roadmap.</h3>
+
+<blockquote>
+  <p>“The number of transistors in an integrated circuit doubles every two years.”</p>
+  <ul>
+    <li>Gordon Moore</li>
+  </ul>
+</blockquote>
+
+<p>Gordon Moore’s infamous prediction was made <a href="https://hasler.ece.gatech.edu/Published_papers/Technology_overview/gordon_moore_1965_article.pdf">in 1965 after observing two years of this growth</a>. It ended up being predictive because it was based on four well-understood engineering challenges with clear paths for improvement.</p>
+
+<ol>
+  <li>Miniaturizing transistors and wires, fitting more onto a chip.</li>
+  <li>Improving the printing process for chips with four known ways to improve photolithography.</li>
+  <li>Making the wafers larger to accommodate more transistors.</li>
+  <li>Improving circuit design.</li>
+</ol>
+
+<p>Moore made the projection based on the observed trends in a rapidly developing, but fundamentally understandable technology.</p>
+
+<p>Now, did this prediction become a target that motivated the industry? Yes. History shows it created enormous pressure across the industry to invest in R&amp;D to drive this technological progress.</p>
+
+<p>The observation and the pressure are where similarities between Moore and METR end.</p>
+
+<h3 id="metrs-law-for-ai-agents">METR’s Law for AI Agents?</h3>
+<p>No.</p>
+
+<p>In contrast with Moore’s Law there is not a set of well-understood engineering challenges with clear paths for improvement that will continue to drive growth in AI agents’ abilities.</p>
+
+<p>The measurements for the engineering challenges Moore saw were objective. METR’s attempt to quantify AI Agent ability is subjective. If you read the research paper as well as the <a href="https://metr.org/hcast.pdf">HCAST, Human Calibrated Autonomy Software Tasks</a> paper that it references you’ll see how much subjectivity went into coming up with a way to measure AI agent ability.</p>
+
+<p>That’s a longer way of saying, microchip measurements were straightforward. AI agent ability is measuring knowledge work, which is fundamentally subjective.</p>
+
+<h4 id="the-contrast-with-moores-law">The Contrast With Moore’s Law</h4>
+
+<p>In generative AI, METR is observing an early trend, similar to Moore.</p>
+
+<p>But what’s going to continue driving improvements that could enable doubling?</p>
+
+<p>Who, if anyone, truly understands the underlying technology? There is a lot going on underneath the hood of a generative AI model. <a href="https://www.anthropic.com/news/tracing-thoughts-language-model">Anthropic’s research</a> about understanding the thoughts of a language model demonstrates both how much is happening and how much we don’t yet understand about this technology.</p>
+
+<h3 id="an-ai-roadmap-or-premature-extrapolation">An AI roadmap or Premature Extrapolation</h3>
+
+<p>Capital has poured into GenAI and continues to do so. The large labs are in constant competition. The pressure that Gordon Moore thought was needed to drive Moore’s Law already exists in spades in the generative AI industry.</p>
+
+<p>It’s the roadmap that is missing.</p>
+
+<p>What’s the data, algorithm, compute, or unknown that’s going to get us to autonomy?</p>
+
+<p>The waters are muddy.</p>
+
+<p>The rhetoric from Sam and Dario has been off the charts about expecting something approximating AGI. They have better seats than anyone to see the whole field, but we also have to discount what they say. For one, CEOs will always talk their book. Second, we’ve seen how some of what they have proclaimed hasn’t proven true (e.g. scaling laws for pre-training will drive us to AGI.)</p>
+
+<p>I don’t see an equivalent to Gordon Moore’s four-part roadmap. Instead I see unknowns. Does more basic research need to be done? Could we strip mine the mountain of AI research that already exists for ideas that could unlock potential breakthroughs that could make METRs observation into a continued reality?</p>
+
+<p>The tsunami of cash being poured into the field alongside a history of AI that stretches back 70 years makes for ripe conditions for advances. What those may be though are unclear.</p>
+
+<h3 id="communication-is-perception">Communication Is Perception</h3>
+<p>Here’s one I’m torn on, but it seems worth calling out.</p>
+
+<p>Is METR’s headline what we need communicated right now?</p>
+
+<p>Communication is perception.</p>
+
+<p>It doesn’t matter what you say, it matters what others hear. This is a principle often ignored by people that try to communicate.</p>
+
+<p>What people are hearing in reaction to this headline is “AI will take over knowledge work.”</p>
+
+<p><a href="https://x.com/AndrewYang/status/1902468574641328417">Andrew Yang’s reaction</a> was illustrative and representative of reactions to METR’s announcement.</p>
+
+<p>There’s an argument that METR’s research puts pressure on the world to become aware of the potential for a fundamental reordering of society.</p>
+
+<p>There’s also an argument that this is alarmist and untrue.</p>
+
+<p>The U.S. is alight in gaslighting these days so maybe I’m just irked by a sensational headline.</p>
+
+<p>But at the same time, for someone whose life’s work is to build a better education system, the potential of AI to reorder society as we know it has some pretty big implications for that work.</p>
+
 <p>Trying to sort through that while in the fog of uncertain and unclear times is a challenge in its own right, and misleading headlines don’t help.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[TL;DR]]></summary></entry><entry><title type="html">Cognitive Dissonance</title><link href="http://localhost:4000/jekyll/update/2025/03/26/cognitive-dissonance.html" rel="alternate" type="text/html" title="Cognitive Dissonance" /><published>2025-03-26T12:55:42-04:00</published><updated>2025-03-26T12:55:42-04:00</updated><id>http://localhost:4000/jekyll/update/2025/03/26/cognitive-dissonance</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2025/03/26/cognitive-dissonance.html"><![CDATA[<p>I bumped into an insidious and powerful force again this week. Something that flexes its muscle behind the scenes–that sneaky little SOB, cognitive dissonance.</p>
 
 <p>My habits brought this to the forefront this week. I deeply recognize their importance. They create a positive flywheel effect. When that positive flywheel is spinning I feel good, I am healthier, think more clearly, create more, am more enjoyable to be around, and even my consumption habits become more mindful and enjoyable. I want that.</p>
@@ -131,7 +285,7 @@
 
 <p>There are games everywhere in life. In America there is a master game that we all have to play in. Its effects are pervasive and regularly visible. Yet to many people, the effects are misunderstood or misattributed.</p>
 
-<p>The game is capitalism. A form of capitalism with a very specific set of rules that were set out and codified in the late twentieth century. There’s regular evidence showing how unaware people are to game they’ve been playing all of their lives. Fortunately, it’s a simple game to understand.</p>
+<p>The game is capitalism. A form of capitalism with a very specific set of rules that were set out and codified in the late twentieth century. There’s regular evidence showing how unaware people are to the game they’ve been playing all of their lives. Fortunately, it’s a simple game to understand.</p>
 
 <p>The latest example comes from Southwest Airlines’ decision to get rid of “bags fly free.” This comes on the heels of eliminating open seating earlier in the year. Corporate greed. Out of touch executives. MBA creep. None of these reactions people have had are wrong, but they’re misattributions. They don’t understand the rules of the game.</p>
 

@@ -11,7 +11,7 @@ categories: jekyll update
 
 There are games everywhere in life. In America there is a master game that we all have to play in. Its effects are pervasive and regularly visible. Yet to many people, the effects are misunderstood or misattributed.
 
-The game is capitalism. A form of capitalism with a very specific set of rules that were set out and codified in the late twentieth century. There's regular evidence showing how unaware people are to game they’ve been playing all of their lives. Fortunately, it’s a simple game to understand.
+The game is capitalism. A form of capitalism with a very specific set of rules that were set out and codified in the late twentieth century. There's regular evidence showing how unaware people are to the game they’ve been playing all of their lives. Fortunately, it’s a simple game to understand.
 
 The latest example comes from Southwest Airlines' decision to get rid of “bags fly free.” This comes on the heels of eliminating open seating earlier in the year. Corporate greed. Out of touch executives. MBA creep. None of these reactions people have had are wrong, but they’re misattributions. They don’t understand the rules of the game.
 
