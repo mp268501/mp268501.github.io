@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XP</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Basic styling for hover box if not covered by style.css */
+        #hover-title {
+            min-height: 50px; /* Ensure it's visible when populated */
+            text-align: left; /* Align text to the left as in the example */
+            background-color: #f9f9f9; /* Light background for the box */
+            border: 1px solid #ddd; /* Border for the box */
+            padding: 10px; /* Padding inside the box */
+            margin-top: 20px; /* Space above the box */
+            border-radius: 5px; /* Rounded corners */
+        }
+        .work-experiences span {
+            cursor: pointer; /* Indicate they are interactive */
+            text-decoration: underline; /* Mimic link appearance */
+            margin-right: 5px; /* Add some spacing */
+            color: #007bff; /* Link-like color */
+        }
+        .work-experiences span:hover {
+            color: #0056b3; /* Darker color on hover */
+        }
+        /* Ensure main container has some padding if not already styled */
+        main {
+            padding: 20px;
+        }
+        h2 {
+            margin-bottom: 20px; /* Space below the heading */
+        }
+    </style>
+</head>
+<body>
+    <main role="main" class="mx-auto text-center">
+        <h2 class="gradient-text inline-block">Work Experience</h2>
+        <div class="work-experiences my-8">
+            <span data-role-title="Placeholder Role Title 1" data-description="Placeholder description for role 1. You can edit this later.">Placeholder Role Title 1</span>,
+            <span data-role-title="Placeholder Role Title 2" data-description="Placeholder description for role 2. You can edit this later.">Placeholder Role Title 2</span>,
+            <span data-role-title="Placeholder Role Title 3" data-description="Placeholder description for role 3. You can edit this later.">Placeholder Role Title 3</span>,
+            <span data-role-title="Placeholder Role Title 4" data-description="Placeholder description for role 4. You can edit this later.">Placeholder Role Title 4</span>,
+            <span data-role-title="Placeholder Role Title 5" data-description="Placeholder description for role 5. You can edit this later.">Placeholder Role Title 5</span>,
+            <span data-role-title="Placeholder Role Title 6" data-description="Placeholder description for role 6. You can edit this later.">Placeholder Role Title 6</span>,
+            <span data-role-title="Placeholder Role Title 7" data-description="Placeholder description for role 7. You can edit this later.">Placeholder Role Title 7</span>,
+            <span data-role-title="Placeholder Role Title 8" data-description="Placeholder description for role 8. You can edit this later.">Placeholder Role Title 8</span>,
+            <span data-role-title="Placeholder Role Title 9" data-description="Placeholder description for role 9. You can edit this later.">Placeholder Role Title 9</span>,
+            <span data-role-title="Placeholder Role Title 10" data-description="Placeholder description for role 10. You can edit this later.">Placeholder Role Title 10</span>.
+        </div>
+        <div id="hover-title" class="mx-auto mt-4 p-4 bg-white border border-gray-200 rounded transition" style="display: none;">
+            <!-- Bio content will appear here -->
+        </div>
+    </main>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        const hoverTitleBox = document.getElementById('hover-title');
+        const experienceElements = document.querySelectorAll('.work-experiences span[data-role-title]');
+
+        experienceElements.forEach(el => {
+          el.addEventListener('mouseover', function () {
+            const roleTitle = this.getAttribute('data-role-title');
+            const description = this.getAttribute('data-description');
+            hoverTitleBox.innerHTML = `<strong>${roleTitle}</strong><br>${description}`;
+            hoverTitleBox.style.display = 'block';
+          });
+        });
+
+        const experiencesContainer = document.querySelector('.work-experiences');
+        if (experiencesContainer) {
+            experiencesContainer.addEventListener('mouseleave', function(event) {
+                // Check if the mouse is leaving to an element outside the container and not to one of its children (spans)
+                if (!experiencesContainer.contains(event.relatedTarget)) {
+                     // hoverTitleBox.style.display = 'none'; // Uncomment this if you want the box to hide when mouse leaves the entire list area
+                }
+            });
+        }
+      });
+    </script>
+</body>
+</html>
