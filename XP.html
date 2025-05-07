@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y0Q6E6Q62N"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Y0Q6E6Q62N');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>XP</title>
@@ -10,20 +20,21 @@
         #hover-title {
             min-height: 50px; /* Ensure it's visible when populated */
             text-align: left; /* Align text to the left as in the example */
-            background-color: #f9f9f9; /* Light background for the box */
-            border: 1px solid #ddd; /* Border for the box */
+            /* background-color and border are handled by utility classes on the div itself */
             padding: 10px; /* Padding inside the box */
             margin-top: 20px; /* Space above the box */
-            border-radius: 5px; /* Rounded corners */
+            border-radius: 5px; 
         }
         .work-experiences span {
             cursor: pointer; /* Indicate they are interactive */
             text-decoration: underline; /* Mimic link appearance */
-            margin-right: 5px; /* Add some spacing */
-            color: #007bff; /* Link-like color */
+            margin-right: 4px; /* Add some spacing */
+            color: inherit; /* Inherit default text color (usually black) */
+            padding: 1px 0; /* Minimal padding for highlight */
         }
         .work-experiences span:hover {
-            color: #0056b3; /* Darker color on hover */
+            background-color: #e9e9e9; /* Light gray highlight */
+            color: inherit; /* Ensure text color doesn't change on hover unless specified */
         }
         /* Ensure main container has some padding if not already styled */
         main {
@@ -36,18 +47,18 @@
 </head>
 <body>
     <main role="main" class="mx-auto text-center">
-        <h2 class="gradient-text inline-block">Work Experience</h2>
+        <h2 class="gradient-text inline-block">Experience Learning About the People and Systems that mark or break Strategy</h2>
         <div class="work-experiences my-8">
-            <span data-role-title="Placeholder Role Title 1" data-description="Placeholder description for role 1. You can edit this later.">Placeholder Role Title 1</span>,
-            <span data-role-title="Placeholder Role Title 2" data-description="Placeholder description for role 2. You can edit this later.">Placeholder Role Title 2</span>,
-            <span data-role-title="Placeholder Role Title 3" data-description="Placeholder description for role 3. You can edit this later.">Placeholder Role Title 3</span>,
-            <span data-role-title="Placeholder Role Title 4" data-description="Placeholder description for role 4. You can edit this later.">Placeholder Role Title 4</span>,
-            <span data-role-title="Placeholder Role Title 5" data-description="Placeholder description for role 5. You can edit this later.">Placeholder Role Title 5</span>,
-            <span data-role-title="Placeholder Role Title 6" data-description="Placeholder description for role 6. You can edit this later.">Placeholder Role Title 6</span>,
-            <span data-role-title="Placeholder Role Title 7" data-description="Placeholder description for role 7. You can edit this later.">Placeholder Role Title 7</span>,
-            <span data-role-title="Placeholder Role Title 8" data-description="Placeholder description for role 8. You can edit this later.">Placeholder Role Title 8</span>,
-            <span data-role-title="Placeholder Role Title 9" data-description="Placeholder description for role 9. You can edit this later.">Placeholder Role Title 9</span>,
-            <span data-role-title="Placeholder Role Title 10" data-description="Placeholder description for role 10. You can edit this later.">Placeholder Role Title 10</span>.
+            <span data-role-title="Strategy consulting" data-description="Big orgs are clusterfucks">Strategy consulting</span>,
+            <span data-role-title="MDN Home Builders" data-description="Helping a founder get out of his own way to turn a sub $1m business on the brink of insolvency into a growth co. with 20x revenue and printing FCF.">MDN Home Builders</span>,
+            <span data-role-title="BidPro" data-description="Founder of software to streamline subcontractor bids. Acquired after six months.">BidPro</span>,
+            <span data-role-title="Logistix" data-description="Co-founder and CEO. Bootstrapped. Grew to $21m in revenue, survived the GFC, and exited via acquisition.">Logistix</span>,
+            <span data-role-title="Global Leadership Center" data-description="Culture can be changed. Turned apathy into excellence.">GLC</span>,
+            <span data-role-title="ACS" data-description="Changed a classroom. Changed a school district.">ACS</span>,
+            <span data-role-title="The Learning Laboratory" data-description="A lifelong quest to build a better education system.">The Learning Laboratory</span>,
+            <span data-role-title="Blackfyre Biosciences" data-description="A cure for acne via the microbiome.">Blackfyre Biosciences</span>,
+            <span data-role-title="Boutique consulting" data-description="Your blind spots illuminated and alleviated.">Boutique consulting</span>,
+            <span data-role-title="Boutique recruiting & placement" data-description="When you can't miss.">Boutique recruiting & placement</span>
         </div>
         <div id="hover-title" class="mx-auto mt-4 p-4 bg-white border border-gray-200 rounded transition" style="display: none;">
             <!-- Bio content will appear here -->
