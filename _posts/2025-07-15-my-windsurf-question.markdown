@@ -6,7 +6,7 @@ categories: jekyll update
 ---
 What happened with OpenAI's offer to buy Windsurf?
 
-The aphorism "history may not repeat, but it rhymes" is because human nature is the one constant throughout our history. Our nature hasn't changed, so understanding human nature is the ultimate ["know the game you're playing"][game-of-life].
+The aphorism "history may not repeat, but it rhymes" is because human nature is the one constant throughout our history. Our nature hasn't changed, so understanding it is the ultimate ["know the game you're playing"][game-of-life].
 
 As I understand it, OpenAI extended a $3 billion offer to purchase Windsurf. The stated sticking point was sharing Windsurf IP with Microsoft. I'm in none of these rooms so I'm relying on reporting. Bloomberg called out Windsurf as the party that didn't want Microsoft to have access to its IP.
 
