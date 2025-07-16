@@ -23,7 +23,7 @@ Instead, Varun and Chen took only a team of researchers to Deepmind at a $600 mi
 
 Something doesn't add up for me here. Founders and VCs leaving $600 million on the table while creating a confusing deal that paints the founders in a bad light?
 
-As the smoke clears, I'll be curious to see what really went down and then add that to my mental model about the game.
+As the smoke clears, I'll be curious to see what really went down and then add that to my mental model about the game that's being played in the wild wild west of the new AI world.
 
 
 [game-of-life]: https://markpettyjohn.com/jekyll/update/2025/03/11/know-the-game-you-play.html
