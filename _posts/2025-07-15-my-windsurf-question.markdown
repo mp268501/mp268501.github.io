@@ -4,13 +4,12 @@ title:  "What happened with OpenAI’s offer to buy Windsurf?"
 date:   2025-07-15 11:55:42 -0500
 categories: jekyll update
 ---
-What happened with OpenAI's offer to buy Windsurf?
 
-Varun turned down $3 billion from OpenAI to take $2.4 billion from Google?
+Windsurf turned down $3 billion from OpenAI to take $2.4 billion from Google?
 
 Something is off, and I haven't seen it addressed yet.
 
-I like history because it helps me understand human nature. Human nature doesn't change. I value ["knowing the game you're playing"][game-of-life].  Having a fleshed out understanding of human nature is a cheat code for understanding games that involve people.
+I like history because it helps me understand human nature. Human nature doesn't change. I value [knowing the game you're playing][game-of-life].  Having a fleshed out understanding of human nature is a cheat code for understanding games that involve people.
 
 With the Windsurf saga I don't understand the game.
 
