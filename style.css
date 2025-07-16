@@ -119,6 +119,14 @@ h3 { /* For the main title on index.html */
     margin-bottom: 0;
 }
 
+/* Apply "Italian italics × bold sans" only to index.html */
+.home-index, .home-index * {
+    font-family: 'Montserrat', Arial, sans-serif !important;
+    font-style: italic !important;
+    font-weight: bold !important;
+}
+
+
 h4 {
     font-family: 'Chakra Petch', sans-serif; /* Same font as h3 */
     font-size: clamp(1.5em, 3vw, 2em);  /* Smaller than h3, responsive */
