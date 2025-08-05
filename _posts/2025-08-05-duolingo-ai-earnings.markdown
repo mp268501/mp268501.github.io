@@ -5,7 +5,7 @@ date:   2025-08-05 16:12:59 -0400
 categories: jekyll update
 ---
 
-I wouldn’t normally care about a Duolingo earnings call. However, this evening’s quarterly call has my interest. 
+I wouldn’t normally care about a Duolingo earnings call. However, this tomorrow's quarterly call has my interest. 
 
 Three months ago is when Luis von Ahn fast followed Tobi at Spotify, declaring that Duolingo would be “AI-first.” If you actually read the [announcement][announcement], it was milquetoast. But, communication is perception. 
 And the youth that Duolingo has cultivated as a consumer base was pissed. 
@@ -30,6 +30,6 @@ This is the perception that Luis Von Ahn was unaware of or unconcerned with when
 
 The question is, does it matter?
 
-Tune in at 5:30 ET, and we get to find out.
+Tune in on August 6th at 5:30 ET, and we get to find out.
 
 [announcement]: https://www.linkedin.com/posts/duolingo_below-is-an-all-hands-email-from-our-activity-7322560534824865792-l9vh/
