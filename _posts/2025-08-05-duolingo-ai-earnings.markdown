@@ -22,7 +22,7 @@ Yet the Mag 7, amid lots of layoffs, is up and to the right.
 
 Generative AI is booming putting an otherwise stagnant economy on its back. Yet the rhetoric from the people heading the labs who are making the AI, is to expect a white collar bloodbath. Not exactly inspiring for anyone outside of the capital class.
 
-So if you’re a consumer, maybe you’ve been laid off recently and your favorite language learning app says it’s going to be “AI-first.” You are hearing that the white collar bloodbath is hear and you, as a Duolingo user, are supporting it.
+So if you’re a consumer, maybe you’ve been laid off recently and your favorite language learning app says it’s going to be "AI-first." You are hearing that the white collar bloodbath has arrived and you, as a Duolingo user, are supporting it.
 
 There’s even an entire language evolving around slurs for AI, robots, and people who outsource their thinking to AI. 
 
