@@ -1,0 +1,250 @@
+:root {
+    --margin-page: 2em;
+    --ui-primary: #000;
+    --ui-secondary: #6b7280;
+    --text-select--bg: #7d7373;
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    padding: 0;
+}
+
+:focus-visible {
+    outline: 1px dotted;
+    outline-offset: 0.1875em;
+    border-radius: 1px;
+    text-decoration: none;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(5px);
+    }
+
+    50% {
+        transform: translateY(-5px);
+    }
+
+    100% {
+        transform: translateY(5px);
+    }
+}
+
+@keyframes gradRotate {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+.float-animation { /*Not used*/
+    backface-visibility: hidden;
+    animation: float 7s ease-in-out infinite;
+}
+
+@media(prefers-reduced-animation: reduce) {
+    .float-animation { /*Not used*/
+        animation: none;
+    }
+}
+
+body {
+    font-family: 'Courier New', sans-serif;
+    line-height: 1.333;
+    margin: 0;
+    padding: 0 var(--margin-page, 20px);
+    color: var(--ui-primary, #000);
+    text-wrap: pretty;
+}
+
+main {
+    max-width: 48em;
+    margin: 0 auto;  /* Center the main element horizontally */
+    text-align: center; /* Center-align content within main */
+}
+
+p {
+    margin: 0 0 1.333em;
+    text-wrap: pretty;
+}
+
+a {
+    text-decoration: underline;
+    text-underline-offset: 0.25em;
+    text-decoration-thickness: 1px;
+    color: inherit; /* Make links inherit text color */
+}
+
+a:hover {
+    text-decoration: dotted;
+}
+
+.anchor__target {
+    color: inherit;
+    text-decoration: none;
+}
+
+h1 { /* Original h1 styling, not currently used */
+    font-size: clamp(4.25em, 4.5vw, 6em);
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-wrap: balance;
+    font-family: 'Chakra Petch', sans-serif; /*Using google font like original*/
+    font-weight: 500;
+    margin-bottom: 0; /* Remove default margin to place image directly below */
+
+}
+
+h2 {
+    font-size: 1em;
+    font-weight: 700;
+    margin: 4em 0 1.333em;
+    text-align: center;
+    text-wrap: balance;
+}
+
+h3 { /* For the main title on index.html */
+    font-size: clamp(2em, 4vw, 3em); /*Responsive, adjust as you like*/
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    text-wrap: balance;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+/* Apply "Italian italics × bold sans" only to index.html */
+.home-index, .home-index * {
+    font-family: 'Montserrat', Arial, sans-serif !important;
+    font-style: italic !important;
+    font-weight: bold !important;
+}
+
+
+h4 {
+    font-family: 'Chakra Petch', sans-serif; /* Same font as h3 */
+    font-size: clamp(1.5em, 3vw, 2em);  /* Smaller than h3, responsive */
+    font-weight: 500;      /* Could be bold (700) or normal (400) */
+    letter-spacing: 0.02em;  /* Slightly less letter-spacing */
+    margin-bottom: 1em;     /* Space below the heading */
+    text-align: center;    /*Consistent with the rest of the page*/
+}
+
+dt {
+    font-size: 1em;
+    font-weight: normal;
+    margin: 2.666em 0 0.666em 1.333em;
+    font-style: italic;
+}
+
+mark {
+    background-color: #f4f1f1;
+}
+
+hr {
+    padding-bottom: 30px;
+    width: 30%;
+    margin: auto;
+}
+
+.gradient-text {
+    position: relative;
+    overflow: hidden;
+    background: white;
+    color: black;
+    border: solid 1px white;
+    /* Fix for subpixel rendering */
+}
+
+.gradient-text:AFTER {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 150%;
+    aspect-ratio: 1;
+    background: linear-gradient(90deg, #565151, #d2caca);
+    mix-blend-mode: screen;
+    animation: gradRotate 8s linear infinite;
+    pointer-events: none;
+}
+
+.footnote {
+    text-align: center;
+    margin: 7em 0 0;
+}
+
+
+@media(max-width:750px) {
+    :root {
+        --margin-page: 1.333em;
+    }
+}
+
+@media(min-width:1500px) {
+    body {
+        font-size: 18px;
+        line-height: 1.333;
+    }
+}
+
+/* Responsive Image */
+.responsive-image {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Adjust this value for more/less rounding */
+}
+
+.nav-list {
+    padding: 0;
+    margin: 2em 0; /* Add some vertical spacing */
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: center; /* Center the items horizontally */
+    gap: 1em; /* Add space between the items */
+}
+
+.nav-list li {
+    list-style: none; /* Remove bullet points - applied directly to li */
+}
+
+.nav-button {
+    background-color: #f4f1f1; /* Light gray background */
+    color: #000; /* Black text */
+    padding: 0.5em 1em; /* Add padding */
+    border: 1px solid #000; /* Black border */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Allow padding and borders to work correctly */
+    border-radius: 4px; /* Optional: Rounded corners */
+    transition: background-color 0.2s ease; /* Smooth transition on hover */
+}
+
+.nav-button:hover {
+    background-color: #ddd; /* Slightly darker gray on hover */
+    text-decoration: none; /* Ensure no underline on hover */
+}
+
+.blog-posts {
+    list-style: none; /* Remove bullet points */
+    padding-left: 0;  /* Remove default indentation */
+}
+.blog-posts li {
+    text-align: center; /*Ensure text is centered */
+    margin-bottom: 0.5em;
+}
+
+ul {
+    list-style-position: inside; /* Fix bullet alignment for unordered lists */
+    padding-left: 0;
+    margin-left: 0;
+}
+
+main li::marker {
+    color: #777877 !important; /* Change to a color that better matches your design */
+}
