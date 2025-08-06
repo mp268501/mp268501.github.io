@@ -23,7 +23,7 @@ Yet, generative AI is booming putting an otherwise stagnant economy on its back.
 
 So if you’re a consumer, maybe you’ve been laid off recently and your favorite language learning app says it’s going to be "AI-first." You are hearing that the white collar bloodbath has arrived and you, as a Duolingo user, are supporting it.
 
-There’s even an entire language evolving around [slurs for AI[clankers], robots, and people who outsource their thinking to AI. 
+There’s even an entire language evolving around [slurs for AI][clankers], robots, and people who outsource their thinking to AI. 
 
 This is the perception that Luis Von Ahn was unaware of or unconcerned with when he made his announcement. 
 
