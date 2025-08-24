@@ -5,6 +5,28 @@ date:   2025-08-05 16:12:59 -0400
 categories: jekyll update
 ---
 
+Update Edit (8-24-2025): No materially impact to financials. Everything is still up and to the right. 
+
+Very limited impact to daily active user (DAU) growth. Year-over-year DAU growth was projected between 40-45%. Duolingo landed on 40% growth with von Ahn attributing them being on the lower end to the social media backlash.
+
+*** 
+
+### Key Discussion Points from the Transcript:
+
+* **Acknowledgment of Backlash:** When asked by an analyst from Morgan Stanley about a slight moderation in Daily Active User (DAU) growth, von Ahn directly attributed it to the controversy.
+    > "Everything is is you know, we feel very strong about this. What what the reason we came up towards the the lower end was because **I said some stuff about AI, and this was I I didn’t give enough context. And because of that, we got particularly in our social media, we got some backlash on it.**"
+
+* **Impact on User Growth and Social Media Strategy:** 
+    > "So, we stopped posting edgy posts on our social media, and we started posting things that we thought would get our sentiment more positive... we still are not posting the extremely edgy things that go that that are more likely to go viral. **So that’s that’s probably what what had, you know, had us come in in slightly the lower end.**"
+
+* **Limited Scope of Impact:** Von Ahn clarified that the impact was not global but was concentrated geographically and demographically.
+    > "I should say the effect of that was **essentially all in The United States... and and among, young audiences.**"
+
+* **Leadership Lessons Learned:** In response to a direct question from an analyst at Evercore, he reflected on the mistake.
+    > "I think, ultimately, **I did not give enough context** on our post internally... what people understood from my message, which is not the intention, is that, you know, oh, we just wanted to fire all our employees, which is is not what we did... I’ve I’ve learned that I need to be a lot more careful, you know, when talking externally versus internally and and given off context."
+
+***
+
 I wouldn’t normally care about a Duolingo earnings call. However, tomorrow's quarterly call has my interest. 
 
 Three months ago is when Luis Von Ahn fast followed Tobi at Spotify, declaring that Duolingo would be “AI-first.” If you actually read the [announcement][announcement], it was milquetoast. But, communication is perception. 

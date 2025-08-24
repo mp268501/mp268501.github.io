@@ -1,0 +1,18 @@
+
+
+There is an astounding lack of rigor in the AI discussions I hear.
+
+I'm an outsider so I pick and choose who to listen to and try to understand how they think, what they think, and why they think that.
+
+I'm going to generalize and possibly strawman here. SV/startup/tech world is all about thinking from first principles.
+
+When I hear them talk about AI, they are looking at only what is right in front of their face and not even seeing that clearly.
+
+
+AI 2027
+
+Anthropic boys on RL'ing our way to AGI
+
+Rory on OpenAI right now and GPT 5
+
+Anything METR related
