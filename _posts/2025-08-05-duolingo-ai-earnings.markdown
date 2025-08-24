@@ -5,13 +5,14 @@ date:   2025-08-05 16:12:59 -0400
 categories: jekyll update
 ---
 
-Update Edit (8-24-2025): No material impact to financials. Everything is still up and to the right. 
+**Update Edit (8-24-2025):** No material impact to financials. Everything is still up and to the right. 
 
 Very limited impact to daily active user (DAU) growth. Year-over-year DAU growth was projected between 40-45%. Duolingo landed on 40% growth with von Ahn attributing them being on the lower end to the social media backlash.
-
+<br>
 
 ***
 
+<br>
 I wouldn’t normally care about a Duolingo earnings call. However, tomorrow's quarterly call has my interest. 
 
 Three months ago is when Luis Von Ahn fast followed Tobi at Spotify, declaring that Duolingo would be “AI-first.” If you actually read the [announcement][announcement], it was milquetoast. But, communication is perception. 
