@@ -1,0 +1,284 @@
+<!-- Chosen Palette: Calm Harmony (Light Gray, Dark Text, Indigo Accent) -->
+<!-- Application Structure Plan: A linear, single-column scrolling page with four distinct interactive "exercise cards". This structure was chosen to mirror the compounding nature of the educational challenge, forcing the user to progress sequentially from foundational skills (multiplication) to more complex ones (proportional reasoning). The flow is designed to build frustration and empathy by demonstrating how a weak understanding in one area makes the next impossible. Key interactions are text inputs for solving problems and button clicks to check answers and reveal hidden pedagogical explanations. -->
+<!-- Visualization & Content Choices: The source report's four exercises are translated into four interactive challenges. Goal: Allow users to actively experience the cognitive load. Method: Use styled HTML input fields that mimic mathematical notation (e.g., traditional multiplication, fractions). Interaction: Users input their answers in the "Alien" base-six format. A "Check Answer" button provides immediate feedback, while a "Show Explanation" button uses a smooth reveal animation to display the pedagogical context. Justification: This direct, hands-on approach is the most effective way to generate the intended empathy, far more so than passive reading. All interactivity is handled with vanilla JavaScript. -->
+<!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Compounding Empathy Challenge</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Code+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .alien-font {
+            font-family: 'Source Code Pro', monospace;
+        }
+        .alien-input {
+            font-family: 'Source Code Pro', monospace;
+            text-transform: uppercase;
+            text-align: center;
+        }
+        .explanation {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.5s ease-out;
+        }
+        .explanation.show {
+            max-height: 1000px;
+            transition: max-height 0.5s ease-in;
+        }
+        .feedback-correct {
+            color: #16a34a; /* green-600 */
+        }
+        .feedback-incorrect {
+            color: #dc2626; /* red-600 */
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+    <div class="container mx-auto p-4 md:p-8 max-w-4xl">
+
+        <header class="text-center mb-10">
+            <h1 class="text-3xl md:text-4xl font-bold text-slate-900">The Compounding Empathy Challenge</h1>
+            <p class="mt-2 text-lg text-slate-600">A Math Progression Simulation</p>
+        </header>
+
+        <section class="bg-white p-6 rounded-xl shadow-lg mb-8 border border-slate-200">
+            <h2 class="text-2xl font-semibold mb-4 text-center text-slate-900">The "Alien" Number System</h2>
+            <p class="mb-4 text-center text-slate-700">To simulate a student's experience, you cannot rely on your intuition. All exercises use the system below. You must reason from the ground up.</p>
+            <div class="flex justify-center p-4 bg-indigo-50 rounded-lg">
+                <div class="grid grid-cols-3 sm:grid-cols-6 gap-x-6 gap-y-2 text-center alien-font text-lg">
+                    <div><span class="font-bold text-indigo-700">Z</span> = 0</div>
+                    <div><span class="font-bold text-indigo-700">A</span> = 1</div>
+                    <div><span class="font-bold text-indigo-700">B</span> = 2</div>
+                    <div><span class="font-bold text-indigo-700">C</span> = 3</div>
+                    <div><span class="font-bold text-indigo-700">D</span> = 4</div>
+                    <div><span class="font-bold text-indigo-700">E</span> = 5</div>
+                </div>
+            </div>
+            <p class="text-center mt-3 text-sm text-slate-500">This is a Base-Six number system.</p>
+        </section>
+
+        <!-- Exercise 1 -->
+        <section id="exercise1" class="bg-white p-6 rounded-xl shadow-lg mb-8 border border-slate-200">
+            <h3 class="text-xl font-semibold mb-2 text-slate-900">Exercise 1: Multiplicative vs. Additive Reasoning</h3>
+            <p class="mb-4 text-slate-600">Solve the following multiplication problem using the traditional algorithm. Use the letter-based system and show your work for the partial products.</p>
+            
+            <div class="flex justify-center items-center my-6">
+                <div class="relative alien-font text-2xl inline-block">
+                     <div class="text-right pr-2">DC</div>
+                     <div class="text-right border-b-2 border-slate-800 pr-2"><span class="mr-4">×</span>AB</div>
+                     <input id="ex1-partial1" type="text" placeholder="Product 1" class="alien-input w-28 mt-2 p-1 border rounded-md border-slate-300 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500" maxlength="3">
+                     <input id="ex1-partial2" type="text" placeholder="Product 2" class="alien-input w-28 mt-1 p-1 border rounded-md border-slate-300 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500" maxlength="3">
+                     <div class="border-b-2 border-slate-800 my-2"></div>
+                     <input id="ex1-final" type="text" placeholder="Final Answer" class="alien-input w-36 p-1 border rounded-md border-slate-300 font-bold focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500" maxlength="4">
+                </div>
+            </div>
+
+            <div id="ex1-feedback" class="text-center h-6 mb-4 font-semibold"></div>
+            <div class="flex justify-center gap-4">
+                <button onclick="checkAnswer(1)" class="bg-indigo-600 text-white font-bold py-2 px-6 rounded-lg hover:bg-indigo-700 transition-colors">Check Answer</button>
+                <button onclick="toggleExplanation(1)" class="bg-slate-200 text-slate-800 font-bold py-2 px-6 rounded-lg hover:bg-slate-300 transition-colors">Show Explanation</button>
+            </div>
+
+            <div id="ex1-explanation" class="explanation mt-6 border-t pt-4">
+                <h4 class="font-semibold text-lg text-slate-800">The Intended Frustration</h4>
+                <p class="text-slate-700 mt-1 mb-3">You will feel a heavy cognitive load. Each step requires conscious, deliberate calculation and conversion between base-ten thinking (to figure out the product) and base-six representation (to write it down). You will likely make mistakes by accidentally reverting to base-ten rules (e.g., "carrying" after 9 instead of 5). The procedure feels arbitrary and brittle.</p>
+                <h4 class="font-semibold text-lg text-slate-800">Connecting to the Student Experience</h4>
+                <ul class="list-disc list-inside text-slate-700 space-y-1">
+                    <li>This is the reality for a student who has not mastered multiplicative reasoning. They see the algorithm as a list of steps to mimic.</li>
+                    <li>Lacking a deep understanding of place value, the shifting of partial products feels like a magical rule.</li>
+                    <li>Without number sense in this system, you have no way to estimate if your answer is reasonable. This is why students will produce answers that are off by orders of magnitude and have no idea.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Exercise 2 -->
+        <section id="exercise2" class="bg-white p-6 rounded-xl shadow-lg mb-8 border border-slate-200">
+            <h3 class="text-xl font-semibold mb-2 text-slate-900">Exercise 2: Fractions as a Gatekeeper</h3>
+            <p class="mb-4 text-slate-600">Which fraction is larger? Justify your answer by finding a common denominator using the Alien Number System. You are not allowed to convert to base-ten to solve it.</p>
+
+            <div class="flex justify-around items-center my-6 alien-font text-4xl">
+                 <div><sup>A</sup>&frasl;<sub>C</sub></div>
+                 <div class="text-2xl text-slate-400">vs.</div>
+                 <div><sup>B</sup>&frasl;<sub>E</sub></div>
+            </div>
+            
+            <div class="text-center mb-4">
+                <p class="mb-2 text-slate-700">New Fractions with Common Denominator (e.g., E/BC):</p>
+                <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
+                    <input id="ex2-frac1" type="text" placeholder="New A/C" class="alien-input w-28 p-1 border rounded-md border-slate-300 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500" maxlength="5">
+                    <span class="text-slate-400">and</span>
+                    <input id="ex2-frac2" type="text" placeholder="New B/E" class="alien-input w-28 p-1 border rounded-md border-slate-300 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500" maxlength="5">
+                </div>
+            </div>
+            <div class="text-center mb-4">
+                <p class="mb-2 text-slate-700">So, which original fraction is larger?</p>
+                <select id="ex2-final" class="p-2 border rounded-md bg-white border-slate-300 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500">
+                    <option value="">Select...</option>
+                    <option value="A/C">A/C</option>
+                    <option value="B/E">B/E</option>
+                    <option value="equal">They are equal</option>
+                </select>
+            </div>
+
+            <div id="ex2-feedback" class="text-center h-6 mb-4 font-semibold"></div>
+            <div class="flex justify-center gap-4">
+                <button onclick="checkAnswer(2)" class="bg-indigo-600 text-white font-bold py-2 px-6 rounded-lg hover:bg-indigo-700 transition-colors">Check Answer</button>
+                <button onclick="toggleExplanation(2)" class="bg-slate-200 text-slate-800 font-bold py-2 px-6 rounded-lg hover:bg-slate-300 transition-colors">Show Explanation</button>
+            </div>
+
+            <div id="ex2-explanation" class="explanation mt-6 border-t pt-4">
+                 <h4 class="font-semibold text-lg text-slate-800">The Intended Frustration</h4>
+                <p class="text-slate-700 mt-1 mb-3">To find a common denominator, you must use the painful, cognitively-loading multiplication procedure from Exercise 1. The entire process feels slow, insecure, and incredibly frustrating. You are performing a procedure you barely trust to solve a problem you don't intuitively understand.</p>
+                <h4 class="font-semibold text-lg text-slate-800">Connecting to the Student Experience</h4>
+                <ul class="list-disc list-inside text-slate-700 space-y-1">
+                    <li>A student who isn't fluent with multiplication facts sees the task of finding a common denominator not as a single step, but as a cascade of difficult, error-prone calculations.</li>
+                    <li>This is why students jump to procedural shortcuts like "cross-multiplication" without understanding why it works. It avoids the painful underlying arithmetic.</li>
+                    <li>The student who lacks a conceptual model (like a number line) also just pushes symbols around. They don't see that the two fractions have the same value, just that one "turns into" the other.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Exercise 3 -->
+        <section id="exercise3" class="bg-white p-6 rounded-xl shadow-lg mb-8 border border-slate-200">
+            <h3 class="text-xl font-semibold mb-2 text-slate-900">Exercise 3: The Relational Meaning of "Equals"</h3>
+            <p class="mb-4 text-slate-600">The symbol <span class="font-bold">&hArr;</span> means "is the same quantity as." Find the missing value that makes the statement true.</p>
+
+            <div class="flex justify-center items-center my-6 alien-font text-3xl space-x-4">
+                <span>D &oplus; B</span>
+                <span class="font-bold text-indigo-600">&hArr;</span>
+                <span>E &oplus;</span>
+                <input id="ex3-final" type="text" class="alien-input w-16 p-1 border rounded-md border-slate-300 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500" maxlength="1">
+            </div>
+            <p class="text-center text-sm text-slate-500">(Where &oplus; means addition)</p>
+
+            <div id="ex3-feedback" class="text-center h-6 my-4 font-semibold"></div>
+            <div class="flex justify-center gap-4">
+                <button onclick="checkAnswer(3)" class="bg-indigo-600 text-white font-bold py-2 px-6 rounded-lg hover:bg-indigo-700 transition-colors">Check Answer</button>
+                <button onclick="toggleExplanation(3)" class="bg-slate-200 text-slate-800 font-bold py-2 px-6 rounded-lg hover:bg-slate-300 transition-colors">Show Explanation</button>
+            </div>
+
+            <div id="ex3-explanation" class="explanation mt-6 border-t pt-4">
+                <h4 class="font-semibold text-lg text-slate-800">The Intended Frustration</h4>
+                <p class="text-slate-700 mt-1 mb-3">Your brain, trained for operational math, will scream that the answer to D + B (4+2) is $AZ$ ($10_{six}$). The impulse is to put $AZ$ in the blank. But this is wrong. The statement asks what value, when added to E, creates the same total quantity as D + B. You are being forced to hold the value of one side of the equation in your head while working on the other—to think relationally.</p>
+                <h4 class="font-semibold text-lg text-slate-800">Connecting to the Student Experience</h4>
+                <ul class="list-disc list-inside text-slate-700 space-y-1">
+                    <li>A student with an operational view of "=" sees `8 + 4 = __ + 5` and immediately writes `12` in the blank, because they believe the equals sign is a command to compute what comes before it.</li>
+                    <li>They are not thinking about balancing the two sides of the equation. This habit makes solving for a variable in algebra conceptually impossible.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Exercise 4 -->
+        <section id="exercise4" class="bg-white p-6 rounded-xl shadow-lg mb-8 border border-slate-200">
+            <h3 class="text-xl font-semibold mb-2 text-slate-900">Exercise 4: The Capstone - Proportional Reasoning</h3>
+            <p class="mb-4 text-slate-600">A recipe requires **B** drops of Dragon's Blood for every **C** grams of Unicorn Horn. You have **AD** drops of Dragon's Blood. How many grams of Unicorn Horn do you need? Set up a proportion and solve for the unknown.</p>
+
+            <div class="flex justify-center items-center my-6 alien-font text-3xl space-x-4">
+                <span><sup>B</sup>&frasl;<sub>C</sub></span>
+                <span class="font-bold text-indigo-600">&hArr;</span>
+                <span><sup>AD</sup>&frasl;<sub><input id="ex4-final" type="text" class="alien-input w-20 p-1 border rounded-md border-slate-300 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500" maxlength="2"></sub></span>
+            </div>
+
+            <div id="ex4-feedback" class="text-center h-6 my-4 font-semibold"></div>
+            <div class="flex justify-center gap-4">
+                <button onclick="checkAnswer(4)" class="bg-indigo-600 text-white font-bold py-2 px-6 rounded-lg hover:bg-indigo-700 transition-colors">Check Answer</button>
+                <button onclick="toggleExplanation(4)" class="bg-slate-200 text-slate-800 font-bold py-2 px-6 rounded-lg hover:bg-slate-300 transition-colors">Show Explanation</button>
+            </div>
+
+            <div id="ex4-explanation" class="explanation mt-6 border-t pt-4">
+                <h4 class="font-semibold text-lg text-slate-800">The Intended Frustration</h4>
+                <p class="text-slate-700 mt-1 mb-3">This task is designed to be overwhelming. To solve it, you must set up the proportion, think relationally, use inverse operations (cross-multiply and divide), and execute all the painful alien arithmetic from the previous exercises. A failure or weakness in any of the previous exercises will cause a total breakdown here. This is the point of compounding failure.</p>
+                <h4 class="font-semibold text-lg text-slate-800">Connecting to the Student Experience</h4>
+                <ul class="list-disc list-inside text-slate-700 space-y-1">
+                    <li>This single problem represents the wall that three out of four 8th graders hit. It reveals that "being bad at math" is often not the cause, but the result of specific, unaddressed foundational weaknesses.</li>
+                    <li>If **multiplicative reasoning** is weak, the calculations are impossible. If the **concept of a fraction** is just a rule, setting up the ratio is not intuitive. If the **equals sign is operational**, the entire idea of a proportion as a statement of equivalent ratios makes no sense.</li>
+                    <li>The student is left stranded, unable to even begin, feeling that math is an arbitrary set of rules that they will never understand. This is the empathy we seek to build.</li>
+                </ul>
+            </div>
+        </section>
+
+    </div>
+
+    <script>
+        const VALID_CHARS = /^[ZABCDE/ ]+$/;
+        const ANSWERS = {
+            1: { p1: 'ADZ', p2: 'DCZ', final: 'AZZZ' },
+            2: { frac1: 'E/BC', frac2: 'AZ/BC', final: 'B/E' },
+            3: { final: 'A' },
+            4: { final: 'BC' }
+        };
+
+        function getFeedbackEl(exNum) {
+            return document.getElementById(`ex${exNum}-feedback`);
+        }
+
+        function setFeedback(el, message, isCorrect) {
+            el.textContent = message;
+            el.className = isCorrect 
+                ? 'text-center h-6 mb-4 font-semibold feedback-correct' 
+                : 'text-center h-6 mb-4 font-semibold feedback-incorrect';
+        }
+
+        function toggleExplanation(exNum) {
+            const explanationDiv = document.getElementById(`ex${exNum}-explanation`);
+            explanationDiv.classList.toggle('show');
+        }
+
+        function checkAnswer(exNum) {
+            const feedbackEl = getFeedbackEl(exNum);
+            let isCorrect = false;
+
+            try {
+                switch (exNum) {
+                    case 1:
+                        const p1 = document.getElementById('ex1-partial1').value.toUpperCase().trim();
+                        const p2 = document.getElementById('ex1-partial2').value.toUpperCase().trim();
+                        const f1 = document.getElementById('ex1-final').value.toUpperCase().trim();
+                        if (!VALID_CHARS.test(p1) || !VALID_CHARS.test(p2) || !VALID_CHARS.test(f1)) throw new Error("Invalid characters");
+                        isCorrect = (p1 === ANSWERS[1].p1 && p2 === ANSWERS[1].p2 && f1 === ANSWERS[1].final);
+                        break;
+                    
+                    case 2:
+                        const frac1Val = document.getElementById('ex2-frac1').value.toUpperCase().replace(/\s/g, '');
+                        const frac2Val = document.getElementById('ex2-frac2').value.toUpperCase().replace(/\s/g, '');
+                        const final2Val = document.getElementById('ex2-final').value;
+                        if (!VALID_CHARS.test(frac1Val) || !VALID_CHARS.test(frac2Val)) throw new Error("Invalid characters");
+                        isCorrect = (frac1Val === ANSWERS[2].frac1 && frac2Val === ANSWERS[2].frac2 && final2Val === ANSWERS[2].final);
+                        break;
+
+                    case 3:
+                        const final3 = document.getElementById('ex3-final').value.toUpperCase().trim();
+                        if (!VALID_CHARS.test(final3)) throw new Error("Invalid characters");
+                        isCorrect = (final3 === ANSWERS[3].final);
+                        break;
+
+                    case 4:
+                        const final4 = document.getElementById('ex4-final').value.toUpperCase().trim();
+                        if (!VALID_CHARS.test(final4)) throw new Error("Invalid characters");
+                        isCorrect = (final4 === ANSWERS[4].final);
+                        break;
+                }
+
+                if (isCorrect) {
+                    setFeedback(feedbackEl, 'Correct! Great job reasoning through that.', true);
+                } else {
+                    setFeedback(feedbackEl, 'Not quite. Think carefully about the base-six rules.', false);
+                }
+            } catch (e) {
+                setFeedback(feedbackEl, 'Invalid input. Please use only the letters Z,A,B,C,D,E and slashes.', false);
+            }
+        }
+    </script>
+
+</body>
+</html>
