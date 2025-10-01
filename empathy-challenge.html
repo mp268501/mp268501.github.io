@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y0Q6E6Q62N"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -34,28 +33,32 @@ your feet.
 mapping</button>
       </div>
       <p>
-        Multiply the two alien numbers using long multiplication. Fill in the carries and partial products using the
-letters for the base-six digits.
-        When you think you're done, tab to the final product and check your work.
+        Multiply the two alien numbers using long multiplication. Each cell only accepts the letter digits Z through E.
+        Work deliberately so you can notice the friction.
       </p>
+      <ul class="empathy-steps">
+        <li>Use the digit key for a quick letter ↔︎ number translation.</li>
+        <li>Finish one column at a time&mdash;carry on top, partial products in the middle, then the final product.</li>
+        <li>Feedback updates instantly, so tap or click any cell again whenever you need to revise it.</li>
+      </ul>
+      <div class="digit-hint">
+        <span>Z = 0</span>
+        <span>A = 1</span>
+        <span>B = 2</span>
+        <span>C = 3</span>
+        <span>D = 4</span>
+        <span>E = 5</span>
+      </div>
       <div class="digit-mapping" id="digit-mapping" hidden>
-        <table>
-          <caption>Digit mapping between alien letters and base-ten values</caption>
-          <thead>
-            <tr>
-              <th scope="col">Letter</th>
-              <th scope="col">Value</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr><td>Z</td><td>0</td></tr>
-            <tr><td>A</td><td>1</td></tr>
-            <tr><td>B</td><td>2</td></tr>
-            <tr><td>C</td><td>3</td></tr>
-            <tr><td>D</td><td>4</td></tr>
-            <tr><td>E</td><td>5</td></tr>
-          </tbody>
-        </table>
+        <p class="digit-legend__title">Letter to number key</p>
+        <dl class="digit-legend">
+          <div class="digit-legend__pair"><dt>Z</dt><dd>0</dd></div>
+          <div class="digit-legend__pair"><dt>A</dt><dd>1</dd></div>
+          <div class="digit-legend__pair"><dt>B</dt><dd>2</dd></div>
+          <div class="digit-legend__pair"><dt>C</dt><dd>3</dd></div>
+          <div class="digit-legend__pair"><dt>D</dt><dd>4</dd></div>
+          <div class="digit-legend__pair"><dt>E</dt><dd>5</dd></div>
+        </dl>
       </div>
 
       <div class="long-mult" data-exercise="base-six">
