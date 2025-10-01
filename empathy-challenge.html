@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y0Q6E6Q62N"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-Y0Q6E6Q62N');
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Compounding Empathy Challenge</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="assets/css/empathy-sim.css">
+</head>
+<body>
+  <main class="empathy-sim">
+    <header class="empathy-hero">
+      <h1 class="gradient-text">Compounding Empathy Challenge</h1>
+      <p>
+        Step inside the frustration students feel when the number system and the language around equality shift under
+your feet.
+        Each task reuses the same six-letter digit set, so the discomfort compounds just like it does in the classroom.
+      </p>
+      <p class="empathy-hero__cta">Work through each activity. Pause when you feel the friction.</p>
+    </header>
+
+    <section class="empathy-section" id="base-six">
+      <div class="empathy-section__header">
+        <h2>1. Base-Six Multiplication</h2>
+        <button type="button" class="toggle-mapping" aria-expanded="false" aria-controls="digit-mapping">Show digit
+mapping</button>
+      </div>
+      <p>
+        Multiply the two alien numbers using long multiplication. Fill in the carries and partial products using the
+letters for the base-six digits.
+        When you think you're done, tab to the final product and check your work.
+      </p>
+      <div class="digit-mapping" id="digit-mapping" hidden>
+        <table>
+          <caption>Digit mapping between alien letters and base-ten values</caption>
+          <thead>
+            <tr>
+              <th scope="col">Letter</th>
+              <th scope="col">Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Z</td><td>0</td></tr>
+            <tr><td>A</td><td>1</td></tr>
+            <tr><td>B</td><td>2</td></tr>
+            <tr><td>C</td><td>3</td></tr>
+            <tr><td>D</td><td>4</td></tr>
+            <tr><td>E</td><td>5</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="long-mult" data-exercise="base-six">
+        <div class="long-mult__problem" aria-label="Long multiplication setup">
+          <div class="long-mult__row long-mult__row--given"><span class="long-mult__operator">&nbsp;</span><span
+class="long-mult__value">D</span><span class="long-mult__value">E</span></div>
+          <div class="long-mult__row long-mult__row--given"><span class="long-mult__operator">&times;</span><span
+class="long-mult__value">B</span><span class="long-mult__value">C</span></div>
+          <div class="long-mult__divider" aria-hidden="true"></div>
+        </div>
+        <div class="long-mult__workspace" role="group" aria-label="Workspace for carries and partial products">
+          <div class="long-mult__column" data-column="0">
+            <label class="sr-only" for="base-six-carry-0">Carry column 1</label>
+            <input id="base-six-carry-0" data-role="carry" maxlength="1" inputmode="text" autocomplete="off">
+            <label class="sr-only" for="base-six-row1-0">Partial product column 1</label>
+            <input id="base-six-row1-0" data-role="row" data-row="0" maxlength="1" inputmode="text"
+autocomplete="off">
+            <label class="sr-only" for="base-six-row2-0">Shifted partial product column 1</label>
+            <input id="base-six-row2-0" data-role="row" data-row="1" maxlength="1" inputmode="text"
+autocomplete="off">
+            <label class="sr-only" for="base-six-final-0">Final product column 1</label>
+            <input id="base-six-final-0" data-role="final" maxlength="1" inputmode="text" autocomplete="off">
+          </div>
+          <div class="long-mult__column" data-column="1">
+            <label class="sr-only" for="base-six-carry-1">Carry column 2</label>
+            <input id="base-six-carry-1" data-role="carry" maxlength="1" inputmode="text" autocomplete="off">
+            <label class="sr-only" for="base-six-row1-1">Partial product column 2</label>
+            <input id="base-six-row1-1" data-role="row" data-row="0" maxlength="1" inputmode="text"
+autocomplete="off">
+            <label class="sr-only" for="base-six-row2-1">Shifted partial product column 2</label>
+            <input id="base-six-row2-1" data-role="row" data-row="1" maxlength="1" inputmode="text"
+autocomplete="off">
+            <label class="sr-only" for="base-six-final-1">Final product column 2</label>
+            <input id="base-six-final-1" data-role="final" maxlength="1" inputmode="text" autocomplete="off">
+          </div>
+          <div class="long-mult__column" data-column="2">
+            <label class="sr-only" for="base-six-carry-2">Carry column 3</label>
+            <input id="base-six-carry-2" data-role="carry" maxlength="1" inputmode="text" autocomplete="off">
+            <label class="sr-only" for="base-six-row1-2">Partial product column 3</label>
+            <input id="base-six-row1-2" data-role="row" data-row="0" maxlength="1" inputmode="text"
+autocomplete="off">
+            <label class="sr-only" for="base-six-row2-2">Shifted partial product column 3</label>
+            <input id="base-six-row2-2" data-role="row" data-row="1" maxlength="1" inputmode="text"
+autocomplete="off">
+            <label class="sr-only" for="base-six-final-2">Final product column 3</label>
+            <input id="base-six-final-2" data-role="final" maxlength="1" inputmode="text" autocomplete="off">
+          </div>
+          <div class="long-mult__column" data-column="3">
+            <label class="sr-only" for="base-six-carry-3">Carry column 4</label>
+            <input id="base-six-carry-3" data-role="carry" maxlength="1" inputmode="text" autocomplete="off">
+            <label class="sr-only" for="base-six-row1-3">Partial product column 4</label>
+            <input id="base-six-row1-3" data-role="row" data-row="0" maxlength="1" inputmode="text"
+autocomplete="off">
+            <label class="sr-only" for="base-six-row2-3">Shifted partial product column 4</label>
+            <input id="base-six-row2-3" data-role="row" data-row="1" maxlength="1" inputmode="text"
+autocomplete="off">
+            <label class="sr-only" for="base-six-final-3">Final product column 4</label>
+            <input id="base-six-final-3" data-role="final" maxlength="1" inputmode="text" autocomplete="off">
+          </div>
+        </div>
+        <p class="empathy-note" data-feedback="base-six" aria-live="polite"></p>
+      </div>
+    </section>
+
+    <section class="empathy-section" id="fractions">
+      <h2>2. Fractions as Gatekeepers</h2>
+      <p>
+        Two students reach the same gate at the same time. Neither can pass until the denominators match. Convert each
+fraction with the alien digits and then decide which one is larger.
+      </p>
+      <div class="fractions" data-exercise="fractions" role="group" aria-label="Fraction conversion workspace">
+        <div class="fraction-card">
+          <p class="fraction-card__given"><span>B</span>/<span>C</span></p>
+          <label for="fraction-1-numerator">Converted numerator</label>
+          <input id="fraction-1-numerator" maxlength="2" autocomplete="off">
+          <label for="fraction-1-denominator">Converted denominator</label>
+          <input id="fraction-1-denominator" maxlength="2" autocomplete="off">
+        </div>
+        <div class="fraction-card">
+          <p class="fraction-card__given"><span>D</span>/<span>E</span></p>
+          <label for="fraction-2-numerator">Converted numerator</label>
+          <input id="fraction-2-numerator" maxlength="2" autocomplete="off">
+          <label for="fraction-2-denominator">Converted denominator</label>
+          <input id="fraction-2-denominator" maxlength="2" autocomplete="off">
+        </div>
+      </div>
+      <div class="fraction-compare">
+        <label for="fraction-comparison">Select the relationship once the denominators match</label>
+        <select id="fraction-comparison" disabled>
+          <option value="">Choose…</option>
+          <option value="lt">First fraction is smaller</option>
+          <option value="eq">Fractions are equal</option>
+          <option value="gt">First fraction is larger</option>
+        </select>
+        <button type="button" id="fraction-check" disabled>Check comparison</button>
+      </div>
+      <p class="empathy-note" data-feedback="fractions" aria-live="polite"></p>
+    </section>
+
+    <section class="empathy-section" id="relational-equals">
+      <h2>3. Relational Equals</h2>
+      <p>
+        Choose two expressions that mean the same quantity without collapsing either side into a single answer. Listen for
+your own temptation to turn “equals” into “do the operation.”
+      </p>
+      <div class="relational" data-exercise="relational">
+        <div class="relational__selectors" role="group" aria-label="Relational equality builder">
+          <div>
+            <label for="relational-left">Left side</label>
+            <select id="relational-left">
+              <option value="">Select…</option>
+              <option value="B+B">B + B</option>
+              <option value="C+A">C + A</option>
+              <option value="D">D</option>
+              <option value="C×B">C × B</option>
+              <option value="AZ">AZ</option>
+              <option value="E-B">E − B</option>
+              <option value="B+C">B + C</option>
+              <option value="E">E</option>
+            </select>
+          </div>
+          <span class="relational__symbol" aria-hidden="true">⇔</span>
+          <div>
+            <label for="relational-right">Right side</label>
+            <select id="relational-right">
+              <option value="">Select…</option>
+              <option value="B+B">B + B</option>
+              <option value="C+A">C + A</option>
+              <option value="D">D</option>
+              <option value="C×B">C × B</option>
+              <option value="AZ">AZ</option>
+              <option value="E-B">E − B</option>
+              <option value="B+C">B + C</option>
+              <option value="E">E</option>
+            </select>
+          </div>
+        </div>
+        <button type="button" id="relational-check">Check relationship</button>
+        <button type="button" id="relational-visualize">Show me why</button>
+        <div class="balance" aria-hidden="true">
+          <div class="balance__arm">
+            <div class="balance__pan balance__pan--left"></div>
+            <div class="balance__pivot"></div>
+            <div class="balance__pan balance__pan--right"></div>
+          </div>
+        </div>
+      </div>
+      <p class="empathy-note" data-feedback="relational" aria-live="polite"></p>
+    </section>
+
+    <section class="empathy-section" id="proportion">
+      <h2>4. Proportional Reasoning Capstone</h2>
+      <p>
+        You are planning snacks for an alien exchange. Their recipe uses <strong>B</strong> scoops of sweet dust for
+every <strong>C</strong> scoops of grain. How much sweet dust keeps the taste right when you have <strong>AZ</strong> scoops of
+grain?
+        Walk through each step using the letter <strong>S</strong> for the unknown amount. Your progress unlocks the next
+prompt.
+      </p>
+      <ol class="stepper" data-exercise="proportion">
+        <li class="stepper__step" data-step="1">
+          <div class="stepper__prompt">
+            <p>Step 1. Complete the proportion: <span class="math">B / C = ___ / AZ</span></p>
+            <p class="stepper__hint" hidden>Keep sugar over grain on both sides. The letters from the multiplication
+exercise still apply.</p>
+          </div>
+          <label for="proportion-step-1" class="sr-only">Missing symbol in the proportion</label>
+          <input id="proportion-step-1" maxlength="1" autocomplete="off">
+          <button type="button" class="hint-button" data-hint="1">Need a hint?</button>
+        </li>
+        <li class="stepper__step" data-step="2" aria-disabled="true">
+          <div class="stepper__prompt">
+            <p>Step 2. Cross-multiply: <span class="math">B × AZ = C × ___</span></p>
+            <p class="stepper__hint" hidden>Remember what you put in the blank above. If you switch to base ten, the
+balance tips.</p>
+          </div>
+          <label for="proportion-step-2" class="sr-only">Missing symbol in cross multiplication</label>
+          <input id="proportion-step-2" maxlength="1" autocomplete="off" disabled>
+          <button type="button" class="hint-button" data-hint="2" disabled>Need a hint?</button>
+        </li>
+        <li class="stepper__step" data-step="3" aria-disabled="true">
+          <div class="stepper__prompt">
+            <p>Step 3. Compute the left side product in alien digits.</p>
+            <p class="stepper__hint" hidden>This is the same as multiplying B by AZ from the first exercise. Watch for
+carries.</p>
+          </div>
+          <label for="proportion-step-3" class="sr-only">Result of B times AZ in base six letters</label>
+          <input id="proportion-step-3" maxlength="2" autocomplete="off" disabled>
+          <button type="button" class="hint-button" data-hint="3" disabled>Need a hint?</button>
+        </li>
+        <li class="stepper__step" data-step="4" aria-disabled="true">
+          <div class="stepper__prompt">
+            <p>Step 4. Divide by C to solve for the unknown.</p>
+            <p class="stepper__hint" hidden>You're almost there. Does your answer match the story the fractions were
+trying to tell?</p>
+          </div>
+          <label for="proportion-step-4" class="sr-only">Amount of sweet dust for AZ scoops of grain</label>
+          <input id="proportion-step-4" maxlength="1" autocomplete="off" disabled>
+          <button type="button" class="hint-button" data-hint="4" disabled>Need a hint?</button>
+        </li>
+      </ol>
+      <p class="empathy-note" data-feedback="proportion" aria-live="polite"></p>
+    </section>
+
+    <footer class="empathy-footer">
+      <h2>Your empathy log</h2>
+      <p>The tracker below summarizes your attempts, error corrections, and total focused time across the activities.</p>
+      <dl class="empathy-stats">
+        <div>
+          <dt>Exercises completed</dt>
+          <dd id="stat-complete">0 / 4</dd>
+        </div>
+        <div>
+          <dt>Total attempts</dt>
+          <dd id="stat-attempts">0</dd>
+        </div>
+        <div>
+          <dt>Error corrections</dt>
+          <dd id="stat-errors">0</dd>
+        </div>
+        <div>
+          <dt>Focused time</dt>
+          <dd id="stat-time">0s</dd>
+        </div>
+      </dl>
+    </footer>
+  </main>
+
+  <script src="assets/js/empathy-sim.js" defer></script>
+</body>
+</html>
