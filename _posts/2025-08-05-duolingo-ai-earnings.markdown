@@ -7,9 +7,9 @@ categories: jekyll update
 
 I wouldn’t normally care about a Duolingo earnings call. However, tomorrow's quarterly call has my interest. 
 
-Three months ago is when Luis Von Ahn fast followed Tobi at Spotify, declaring that Duolingo would be “AI-first.” If you actually read the [announcement][announcement], it was milquetoast. But, communication is perception. 
+Three months ago Duolingo's CEO Luis Von Ahn fast followed Tobi at Spotify, declaring that Duolingo would be “AI-first.” Beyond the headline the actual [announcement][announcement] reads as milquetoast. But, communication is perception. 
 
-The youth that Duolingo cultivated as a consumer base was pissed. 
+The youth that Duolingo cultivated as a consumer base saw the headline and were pissed. 
 
 So what did they perceive?
 
@@ -17,9 +17,9 @@ Zoom out for a minute to some macro stuff.
 
 The non-ticker tape economy has seen its margins eroded in what Andrew Milgram calls a hollowing out of the middle.
 
-Everyone is seeing their individual spending power erode, and you don’t have to look far to see many individuals straight up struggling.
+Everyone is seeing their individual spending power erode, and you don’t have to look far to see people struggling.
 
-However, generative AI is booming putting an otherwise stagnant economy on its back. Yet the rhetoric from the people heading the labs who are making the AI is to expect a white collar bloodbath. Not exactly inspiring for anyone outside of the capital class.
+However, generative AI is booming, putting an otherwise stagnant economy on its back. Yet the rhetoric from the people heading the labs who are making the AI is to expect a white collar bloodbath. Not exactly inspiring for anyone outside of the capital class.
 
 So if you’re a consumer, maybe you’ve been laid off recently and your favorite language learning app says it’s going to be "AI-first." You are hearing that the white collar bloodbath has arrived and you, as a Duolingo user, are supporting it.
 
