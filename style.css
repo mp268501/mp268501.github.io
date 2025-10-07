@@ -3,6 +3,8 @@
     --ui-primary: #000;
     --ui-secondary: #6b7280;
     --text-select--bg: #7d7373;
+    --sans: 'IBM Plex Sans', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    --serif: 'IBM Plex Serif', Georgia, 'Times New Roman', serif;
 }
 
 html {
@@ -54,8 +56,8 @@ html {
 }
 
 body {
-    font-family: 'Courier New', sans-serif;
-    line-height: 1.333;
+    font-family: var(--sans);
+    line-height: 1.6;
     margin: 0;
     padding: 0 var(--margin-page, 20px);
     color: var(--ui-primary, #000);
@@ -69,9 +71,13 @@ main {
 }
 
 p {
-    font-family: 'IBM Plex Sans', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    font-family: var(--sans);
     font-weight: 400;
-    margin: 0 0 1.333em;
+    font-size: clamp(1em, 2vw, 1.125em);
+    line-height: 1.6;
+    color: #1f1f1f;
+    letter-spacing: 0.003em;
+    margin: 0 0 1.2em;
     text-wrap: pretty;
 }
 
@@ -83,7 +89,8 @@ a {
 }
 
 a:hover {
-    text-decoration: dotted;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
 }
 
 .anchor__target {
@@ -112,21 +119,23 @@ h2 {
 }
 
 h3 {
-    font-family: 'IBM Plex Sans', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    font-family: var(--sans);
     font-weight: 600;
     letter-spacing: 0.01em;
     font-size: clamp(2em, 4vw, 3em);
     text-wrap: balance;
-    margin-bottom: 0;
+    margin: 0 0 0.5em 0;
+    font-style: normal;
 }
 
 h4 {
-    font-family: 'IBM Plex Serif', Georgia, 'Times New Roman', serif;
+    font-family: var(--serif);
     font-size: clamp(1.5em, 3vw, 2em);
     font-weight: 600;
-    letter-spacing: 0.01em;
-    margin-bottom: 1em;
+    letter-spacing: 0;
+    margin: 2.5em 0 1em;
     text-align: center;
+    font-style: normal;
 }
 
 .essay-section {
@@ -136,13 +145,14 @@ h4 {
 }
 
 .essay-heading {
-    font-family: 'IBM Plex Serif', Georgia, 'Times New Roman', serif;
+    font-family: var(--serif);
     font-size: clamp(1.25em, 2.5vw, 1.75em);
     font-weight: 600;
-    letter-spacing: 0.01em;
+    letter-spacing: 0;
     color: #3d3d3d;
     margin: 0 0 0.75em;
     text-align: left;
+    font-style: normal;
 }
 
 .essay-section .essay-heading:not(:first-of-type) {
@@ -150,12 +160,12 @@ h4 {
 }
 
 .essay-paragraph {
-    font-family: 'IBM Plex Sans', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
-    margin: 0 0 0.9em;
+    font-family: var(--sans);
+    margin: 0 0 1.2em;
     font-size: clamp(1em, 2vw, 1.125em);
     line-height: 1.6;
     color: #1f1f1f;
-    letter-spacing: 0.01em;
+    letter-spacing: 0.003em;
 }
 
 .essay-paragraph--spacer {
@@ -173,12 +183,12 @@ h4 {
 .intro-links,
 .intro-links p,
 .intro-links a {
-    font-family: 'IBM Plex Sans', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    font-family: var(--sans);
     font-weight: 400;
     font-size: clamp(1em, 2vw, 1.125em);
     line-height: 1.6;
     color: #1f1f1f;
-    letter-spacing: 0.01em;
+    letter-spacing: 0.003em;
 }
 
 dt {
@@ -203,11 +213,11 @@ hr {
     overflow: hidden;
     background: white;
     color: black;
-    border: solid 1px white;
+    border: 1px solid white;
     /* Fix for subpixel rendering */
 }
 
-.gradient-text:AFTER {
+.gradient-text::after {
     content: "";
     position: absolute;
     top: 50%;
@@ -235,7 +245,7 @@ hr {
 @media(min-width:1500px) {
     body {
         font-size: 18px;
-        line-height: 1.333;
+        line-height: 1.6;
     }
 }
 
