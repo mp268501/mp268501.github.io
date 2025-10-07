@@ -109,21 +109,21 @@ h2 {
     text-wrap: balance;
 }
 
-h3 { /* For the main title on index.html */
-    font-size: clamp(2em, 4vw, 3em); /*Responsive, adjust as you like*/
-    font-weight: bold;
-    letter-spacing: 0.05em;
-    text-wrap: balance;
-    font-family: 'Chakra Petch', sans-serif;
-    font-weight: 500;
-    margin-bottom: 0;
-}
-
 /* Apply "Italian italics × bold sans" only to index.html */
 .home-index, .home-index * {
     font-family: 'Montserrat', Arial, sans-serif !important;
     font-style: italic !important;
     font-weight: bold !important;
+}
+
+/* Primary heading style using Montserrat */
+h3.gradient-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: clamp(2.2em, 4vw, 3.2em);
+    letter-spacing: 0.02em;
+    text-wrap: balance;
+    margin-bottom: 0;
 }
 
 
