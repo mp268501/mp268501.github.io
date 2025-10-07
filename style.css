@@ -136,6 +136,46 @@ h4 {
     text-align: center;    /*Consistent with the rest of the page*/
 }
 
+.essay-section {
+    margin: 3em auto 0;
+    max-width: 42em;
+    text-align: left;
+}
+
+.essay-heading {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: clamp(1.25em, 2.5vw, 1.75em);
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    color: #3d3d3d;
+    margin: 0 0 0.75em;
+    text-align: left;
+}
+
+.essay-section .essay-heading:not(:first-of-type) {
+    margin-top: 3em;
+}
+
+.essay-paragraph {
+    margin: 0 0 0.9em;
+    font-size: clamp(1em, 2vw, 1.125em);
+    line-height: 1.6;
+    color: #1f1f1f;
+    letter-spacing: 0.01em;
+}
+
+.essay-paragraph--spacer {
+    margin-top: 2.5em;
+}
+
+.essay-section .essay-paragraph:last-of-type {
+    margin-bottom: 0;
+}
+
+.intro-links {
+    margin-top: 3em;
+}
+
 dt {
     font-size: 1em;
     font-weight: normal;
