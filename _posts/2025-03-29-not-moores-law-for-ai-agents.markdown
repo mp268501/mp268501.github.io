@@ -7,17 +7,22 @@ categories: jekyll update
 
 TL;DR
 
-METR wrote a [paper][ai-agents] (reasonable, measured) and [tweeted][metr-tweet] (sensational) that AI agent autonomy was doubling every seven months, insinuating that there was a new "Moore's Law" for AI agents. You can tell by people's reactions who read the paper and who looked at the tweet. 
+METR did some good work on analyzing the capabilitis of AI agents. They wrote a [paper][ai-agents] (reasonable, measured) and [tweeted][metr-tweet] (more suggestive) that AI agent autonomy was doubling every seven months, insinuating that there was a new "Moore's Law" for AI agents. 
 
-There is no new Moore’s Law for AI Agents. 
+You can tell by people's reactions:
+
+1. Who read the paper to assess the validity of a new Moore's Law for AI agents and an accompanying ability to carry out long-projects or who simply read the tweet and ran wild
+2. What people think METR's tweet means (that the AGI Sam says is imminent and the AI white collar bloodbath that Dario warns  about are imminent and inevitable)
+
+First off, no, there is no new Moore’s Law for AI Agents. 
 
 Read on to see why.
 
-Original tweet that got all of the attention.
+METR's original tweet that got all of the attention.
 
 ![Moore's Law for AI Agents](/assets/METRtweet.png "Tweet from the official METR account that states: In new research, we find a kind of “Moore’s Law for AI agents”: the length of tasks that AIs can do is doubling about every 7 months. The length of tasks AIs can do is doubling about every 7 months.")
 
-More measured tweet from METR’s founder and CEO. Notice the 1500x fewer views than the original.
+METR’s founder and CEO sent out a more measured tweet about their work but this one was viewed less than 10,000 times while the original racked up 8.5 million views.
 
 !["Persnickety title"](/assets/persnick.png "Tweet from Elizabeth Barnes, the founder and CEO of METR that reads: Persnickety title would be: "there's an exponential trend with doubling time between ~2 -12 months on automatically-scoreable, relatively clean + green-field software tasks from a few distributions". More detail on how we thought about external validity in paper and this thread")
 
@@ -37,9 +42,9 @@ Moore made the projection based on the observed trends in a rapidly developing, 
 
 Now, did this prediction become a target that motivated the industry? Yes. History shows it created enormous pressure across the industry to invest in R&D to drive this technological progress.
 
-The observation and the pressure are where similarities between Moore and METR end.
+There are certainly parallels here to AI today, but with a shorter timeline observed. The amount of capital poured into AI today absolutely creates a competitive pressure coooker to drive technological progress.
 
-
+A known, predictable roadmap is also missing today. I'll talk more about that below.
 
 
 ### METR’s Law for AI Agents?
@@ -57,7 +62,7 @@ In generative AI, METR is observing an early trend, similar to Moore.
 
 But what’s going to continue driving improvements that could enable doubling?
 
-Who, if anyone, truly understands the underlying technology? There is a lot going on underneath the hood of a generative AI model. [Anthropic’s research][anthropic-thoughts] about understanding the thoughts of a language model demonstrates both how much is happening and how much we don’t yet understand about this technology.
+Who, if anyone, truly understands the underlying technology? There is a lot going on underneath the hood of a generative AI models. [Anthropic’s research][anthropic-thoughts] about understanding the thoughts of a language model demonstrates both how much is happening and how much we don’t yet understand about this technology.
 
 ### An AI roadmap or Premature Extrapolation
 
@@ -65,7 +70,7 @@ Capital has poured into GenAI and continues to do so. The large labs are in cons
 
 It’s the roadmap that is missing. 
 
-What’s the data, algorithm, compute, or unknown that’s going to get us to autonomy? 
+What’s the data, algorithm, compute, or unknown that’s going to get us to either AI agents carrying on long projects autonomously or to something approximating AGI, which is how many interpret METR's work here?
 
 The waters are muddy. 
 
@@ -92,11 +97,11 @@ There’s an argument that METR’s research puts pressure on the world to becom
 
 There’s also an argument that this is alarmist and untrue.
 
-The U.S. is alight in gaslighting these days and maybe I'm just irked at a sensational headline. 
+The U.S. is alight in gaslighting these days and maybe I'm just irked that the reaction to METR's work perpetuates a narrative about AGI inevitability that doesn't seem true. I see a surprising lack of rigor in AGI predictions, and while this is not what METR is saying, it's how many people are perceiving it.
 
-But at the same time, for someone whose life's work is to build a better education system, the potential of AI to reorder society as we know has some pretty big implications for that work. 
+But at the same time, for someone whose life's work is to build a better education system, the potential of AI to reorder society as we know it has some pretty big implications for that work. 
 
-Trying to sort through that while in the fog of uncertain and unclear times is a challenge in its own right, and misleading headlines don't help.
+In the end, I don't know. It's just one more narrative to sort through while in the fog of uncertain and unclear times.
 
 [ai-agents]: https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/
 [metr-tweet]: https://x.com/METR_Evals/status/1902384481111322929
