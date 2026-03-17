@@ -3,6 +3,7 @@ layout: post
 title:  "Cognitive Dissonance"
 date:   2025-03-26 11:55:42 -0500
 categories: jekyll update
+published: false
 ---
 I bumped into an insidious and powerful force again this week. Something that flexes its muscle behind the scenes. That sneaky little SOB, cognitive dissonance.
 

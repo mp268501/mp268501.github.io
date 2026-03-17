@@ -3,6 +3,7 @@ layout: post
 title:  "What happened with OpenAI’s offer to buy Windsurf?"
 date:   2025-07-15 11:55:42 -0500
 categories: jekyll update
+published: false
 ---
 
 Windsurf turned down $3 billion from OpenAI to take $2.4 billion from Google?

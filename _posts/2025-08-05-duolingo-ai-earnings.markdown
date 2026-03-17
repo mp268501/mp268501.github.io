@@ -3,6 +3,7 @@ layout: post
 title:  "Duolingo & AI: Communication is Perception"
 date:   2025-08-05 16:12:59 -0400
 categories: jekyll update
+published: false
 ---
 
 I wouldn’t normally care about a Duolingo earnings call. However, tomorrow's quarterly call has my interest. 
