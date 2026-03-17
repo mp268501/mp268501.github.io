@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOS Style Homepage</title>
+  <style>
+    :root {
+      color-scheme: dark;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: #000;
+      color: #39ff14;
+      font-family: "Courier New", Courier, monospace;
+      font-size: clamp(14px, 2vw, 18px);
+      line-height: 1.6;
+      padding: min(5vw, 40px);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+    }
+
+    .terminal {
+      width: min(900px, 100%);
+      border: 2px solid #39ff14;
+      padding: min(6vw, 48px);
+      box-shadow: 0 0 20px rgba(57, 255, 20, 0.4);
+    }
+
+    .prompt-line {
+      display: block;
+      margin-top: 1.5em;
+    }
+
+    .prompt-line::before {
+      content: "C:\\>";
+      margin-right: 0.5em;
+    }
+
+    .blinking-cursor {
+      display: inline-block;
+      width: 0.6ch;
+      background: #39ff14;
+      animation: blink 1s steps(1) infinite;
+      margin-left: 0.15em;
+      transform: translateY(0.25ch);
+    }
+
+    @keyframes blink {
+      50% {
+        opacity: 0;
+      }
+    }
+
+    h1, h2, p {
+      margin-bottom: 0.6em;
+    }
+
+    h1 {
+      font-size: 1.6em;
+    }
+
+    h2 {
+      font-size: 1.2em;
+    }
+
+    .intro {
+      margin-top: 1em;
+    }
+
+    .note {
+      margin-top: 1em;
+    }
+  </style>
+</head>
+<body>
+  <main class="terminal" role="presentation">
+    <h1>CP/M-86 for the IBM Personal Computer</h1>
+    <h2>Version 1.0</h2>
+    <p>Copyright 1982, Digital Research Inc.</p>
+
+    <div class="intro">
+      <p>Hi, I'm Mark Pettyjohn</p>
+      <p>Welcome to my personal website</p>
+    </div>
+
+    <div class="note">
+      <p>Type 'DIR' to get you going or 'HELP' to see command options</p>
+      <p>Don't worry about capitalization, we're not case sensitive around here</p>
+    </div>
+
+    <span class="prompt-line">&nbsp;</span>
+    <span class="blinking-cursor" aria-hidden="true"></span>
+  </main>
+</body>
+</html>

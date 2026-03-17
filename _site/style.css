@@ -3,6 +3,8 @@
     --ui-primary: #000;
     --ui-secondary: #6b7280;
     --text-select--bg: #7d7373;
+    --sans: 'IBM Plex Sans', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    --serif: 'IBM Plex Serif', Georgia, 'Times New Roman', serif;
 }
 
 html {
@@ -54,8 +56,8 @@ html {
 }
 
 body {
-    font-family: 'Courier New', sans-serif;
-    line-height: 1.333;
+    font-family: var(--sans);
+    line-height: 1.6;
     margin: 0;
     padding: 0 var(--margin-page, 20px);
     color: var(--ui-primary, #000);
@@ -64,12 +66,18 @@ body {
 
 main {
     max-width: 48em;
-    margin: 0 auto;  /* Center the main element horizontally */
-    text-align: center; /* Center-align content within main */
+    margin: 0 auto;
+    text-align: left;
 }
 
 p {
-    margin: 0 0 1.333em;
+    font-family: var(--sans);
+    font-weight: 400;
+    font-size: clamp(1em, 2vw, 1.125em);
+    line-height: 1.6;
+    color: #1f1f1f;
+    letter-spacing: 0.003em;
+    margin: 0 0 1.2em;
     text-wrap: pretty;
 }
 
@@ -81,7 +89,8 @@ a {
 }
 
 a:hover {
-    text-decoration: dotted;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
 }
 
 .anchor__target {
@@ -105,35 +114,84 @@ h2 {
     font-size: 1em;
     font-weight: 700;
     margin: 4em 0 1.333em;
-    text-align: center;
     text-wrap: balance;
 }
 
-h3 { /* For the main title on index.html */
-    font-size: clamp(2em, 4vw, 3em); /*Responsive, adjust as you like*/
-    font-weight: bold;
-    letter-spacing: 0.05em;
+h3 {
+    font-family: var(--sans);
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    font-size: clamp(2em, 4vw, 3em);
     text-wrap: balance;
-    font-family: 'Chakra Petch', sans-serif;
-    font-weight: 500;
+    margin: 0 0 0.5em 0;
+    font-style: normal;
+}
+
+h4 {
+    font-family: var(--serif);
+    font-size: clamp(1.5em, 3vw, 2em);
+    font-weight: 600;
+    letter-spacing: 0;
+    margin: 2.5em 0 1em;
+    font-style: normal;
+}
+
+.essay-section {
+    margin: 3em auto 0;
+    max-width: 42em;
+    text-align: left;
+}
+
+.essay-heading {
+    font-family: var(--serif);
+    font-size: clamp(1.25em, 2.5vw, 1.75em);
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #3d3d3d;
+    margin: 1.5em 0 0.75em;
+    text-align: left;
+    font-style: normal;
+}
+
+.essay-section .essay-heading:not(:first-of-type) {
+    margin-top: 3em;
+}
+
+.essay-paragraph {
+    font-family: var(--sans);
+    margin: 0 0 1.2em;
+    font-size: clamp(1em, 2vw, 1.125em);
+    line-height: 1.6;
+    color: #1f1f1f;
+    letter-spacing: 0.003em;
+}
+
+.essay-paragraph--spacer {
+    margin-top: 2.5em;
+}
+
+.essay-section .essay-paragraph:last-of-type {
     margin-bottom: 0;
 }
 
-/* Apply "Italian italics × bold sans" only to index.html */
-.home-index, .home-index * {
-    font-family: 'Montserrat', Arial, sans-serif !important;
-    font-style: italic !important;
-    font-weight: bold !important;
+.intro-links {
+    margin-top: 1.5em;
 }
 
+.intro-links a:not([class]) {
+    display: inline-block;
+    margin-top: 0.5em;
+}
 
-h4 {
-    font-family: 'Chakra Petch', sans-serif; /* Same font as h3 */
-    font-size: clamp(1.5em, 3vw, 2em);  /* Smaller than h3, responsive */
-    font-weight: 500;      /* Could be bold (700) or normal (400) */
-    letter-spacing: 0.02em;  /* Slightly less letter-spacing */
-    margin-bottom: 1em;     /* Space below the heading */
-    text-align: center;    /*Consistent with the rest of the page*/
+.intro-links,
+.intro-links p,
+.intro-links a {
+    font-family: var(--sans);
+    font-weight: 400;
+    font-size: clamp(1em, 2vw, 1.125em);
+    line-height: 1.6;
+    color: #1f1f1f;
+    letter-spacing: 0.003em;
 }
 
 dt {
@@ -144,7 +202,7 @@ dt {
 }
 
 mark {
-    background-color: #f4f1f1;
+    background-color: #9c7676;
 }
 
 hr {
@@ -158,11 +216,11 @@ hr {
     overflow: hidden;
     background: white;
     color: black;
-    border: solid 1px white;
+    border: 1px solid white;
     /* Fix for subpixel rendering */
 }
 
-.gradient-text:AFTER {
+.gradient-text::after {
     content: "";
     position: absolute;
     top: 50%;
@@ -190,7 +248,7 @@ hr {
 @media(min-width:1500px) {
     body {
         font-size: 18px;
-        line-height: 1.333;
+        line-height: 1.6;
     }
 }
 
