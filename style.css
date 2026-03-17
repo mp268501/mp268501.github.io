@@ -150,7 +150,7 @@ h4 {
     font-weight: 600;
     letter-spacing: 0;
     color: #3d3d3d;
-    margin: 0 0 0.75em;
+    margin: 1.5em 0 0.75em;
     text-align: left;
     font-style: normal;
 }
@@ -177,7 +177,12 @@ h4 {
 }
 
 .intro-links {
-    margin-top: 3em;
+    margin-top: 1.5em;
+}
+
+.intro-links a:not([class]) {
+    display: inline-block;
+    margin-top: 0.5em;
 }
 
 .intro-links,
