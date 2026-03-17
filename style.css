@@ -66,8 +66,8 @@ body {
 
 main {
     max-width: 48em;
-    margin: 0 auto;  /* Center the main element horizontally */
-    text-align: center; /* Center-align content within main */
+    margin: 0 auto;
+    text-align: left;
 }
 
 p {
@@ -114,7 +114,6 @@ h2 {
     font-size: 1em;
     font-weight: 700;
     margin: 4em 0 1.333em;
-    text-align: center;
     text-wrap: balance;
 }
 
@@ -134,7 +133,6 @@ h4 {
     font-weight: 600;
     letter-spacing: 0;
     margin: 2.5em 0 1em;
-    text-align: center;
     font-style: normal;
 }
 
